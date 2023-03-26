@@ -1,3 +1,186 @@
-body {
-  background-color: red;
+/***
+    The new CSS reset - version 1.7.3 (last updated 7.8.2022)
+    GitHub page: https://github.com/elad2412/the-new-css-reset
+***/
+
+/*
+    Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property
+    - The "symbol *" part is to solve Firefox SVG sprite bug
+ */
+*:where(
+    :not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)
+  ) {
+  all: unset;
+  display: revert;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reapply the pointer cursor for anchor tags */
+a,
+button {
+  cursor: revert;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol,
+ul,
+menu {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-width: 100%;
+}
+
+/* removes spacing between cells in tables */
+table {
+  border-collapse: collapse;
+}
+
+/* Safari - solving issue when using user-select:none on the <body> text input doesn't working */
+input,
+textarea {
+  -webkit-user-select: auto;
+}
+
+/* revert the 'white-space' property for textarea elements on Safari */
+textarea {
+  white-space: revert;
+}
+
+/* minimum style to allow to style meter element */
+meter {
+  -webkit-appearance: revert;
+  appearance: revert;
+}
+
+/* reset default text opacity of input placeholder */
+::placeholder {
+  color: unset;
+}
+
+/* fix the feature of 'hidden' attribute.
+ display:revert; revert to element instead of attribute */
+:where([hidden]) {
+  display: none;
+}
+
+/* revert for bug in Chromium browsers
+ - fix for the content editable attribute will work properly.
+ - webkit-user-select: auto; added for Safari in case of using user-select:none on wrapper element*/
+:where([contenteditable]:not([contenteditable="false"])) {
+  -moz-user-modify: read-write;
+  -webkit-user-modify: read-write;
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
+  -webkit-user-select: auto;
+}
+
+/* apply back the draggable feature - exist only in Chromium and Safari */
+:where([draggable="true"]) {
+  -webkit-user-drag: element;
+}
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("/assets/fonts/Mona-Sans.woff2") format("woff2 supports variations"),
+    url("/assets/fonts/Mona-Sans.woff2") format("woff2-variations");
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
+/* *********************************** */
+/* Variables */
+/* *********************************** */
+
+:root {
+  /* Colores */
+  --color-green: 68, 54%, 55%;
+  --color-orange: 31, 83%, 68%;
+  --color-pink: 340, 40%, 62%;
+  --color-gray: 166, 17%, 71%;
+  --color-blue: 223, 78%, 68%;
+
+  /* Tipo de letras */
+  --ff-text: "Mona Sans";
+  --ff-title: "Amatic SC", cursive;
+
+  /* Tamaño de letras */
+  --fs-titulo: 8rem;
+  --fs-900: 6rem;
+  --fs-800: 5rem;
+  --fs-700: 4rem;
+  --fs-600: 1.563rem;
+  --fs-500: 1.25rem;
+  --fs-400: 1rem;
+  --fs-300: 0.8rem;
+  --fs-200: 0.64rem;
+  --fs-100: 0.512rem;
+}
+
+/* *********************************** */
+/* Fuentes */
+/* *********************************** */
+
+.ff-text {
+  font-family: var(--ff-text);
+}
+
+.ff-title {
+  font-family: var(--ff-title);
+}
+
+.fs-900 {
+  font-size: var(--fs-900);
+}
+
+.fs-800 {
+  font-size: var(--fs-800);
+}
+.fs-700 {
+  font-size: var(--fs-700);
+}
+
+.fs-500 {
+  font-size: var(--fs-500);
+}
+
+.fs-400 {
+  font-size: var(--fs-400);
+}
+
+.fs-300 {
+  font-size: var(--fs-300);
+}
+
+/* ************************************ */
+/* Home  */
+/* ************************************ */
+
+.home-layout {
+  max-width: 1000px;
+  margin-inline: auto;
+  background-color: hsl(var(--color-blue));
+  background-image: url(/assets/images/bg-blue-stars.svg);
+}
+
+/* ************************************ */
+/* Header Componente */
+/* ************************************ */
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-cart {
+  display: flex;
+  justify-content: space-between;
 }
