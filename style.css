@@ -129,6 +129,16 @@ meter {
 }
 
 /* *********************************** */
+/* Clases útiles */
+/* *********************************** */
+
+.linea-text {
+  /* -webkit-text-stroke: 1px black; */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000, 4px 4px 0px hsl(var(--color-shadow-blue));
+}
+
+/* *********************************** */
 /* Colores */
 /* *********************************** */
 
@@ -173,6 +183,7 @@ meter {
 
 .ff-title {
   font-family: var(--ff-title);
+  line-height: 0.9;
 }
 
 .fs-900 {
@@ -265,20 +276,56 @@ meter {
 /* ************************************ */
 /* Hero Componente */
 /* ************************************ */
+.hero-grid {
+  display: grid;
+  grid-template: repeat(2, auto) / 1fr;
+  gap: 1rem;
+}
+
+.hero-fondo {
+  background-color: hsl(var(--color-green));
+  box-shadow: 5px 5px 0px hsl(var(--color-shadow-blue));
+  grid-row: 1 / -1;
+  grid-column: 1 / -1;
+  border-radius: 15px;
+  transform: rotate(5deg);
+  z-index: 10;
+}
+
+.hero-text {
+  grid-row: 1 / 2;
+  grid-column: 1 / -1;
+  margin: 1rem;
+  z-index: 11;
+  transform: rotate(5deg);
+  padding-inline: 1rem;
+  font-size: 3.5rem;
+}
+
+.hero-text-title {
+  transform: translate(20px, 5px) rotate(-10deg);
+  font-size: 6rem;
+}
 
 .hero-select {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  justify-self: end;
   gap: 1rem;
-  padding: 1.7rem;
-  background-color: hsl(var(--color-pink));
+  padding: 2rem;
+  background-color: hsl(var(--color-pink), 0.9);
   border: 0.8rem solid hsl(var(--color-blue));
   border-radius: 30px;
-  max-width: 17rem;
+  /* max-width: 17rem; */
   text-align: center;
   aspect-ratio: 1;
   font-weight: 700;
+  grid-row: 2 / 3;
+  grid-column: 1 / -1;
+  margin: 1rem;
+  z-index: 12;
+  transform: translate(2.5rem);
 }
 
 .hero-btn-container {
@@ -293,4 +340,40 @@ meter {
   border-radius: 7px;
   font-size: var(--fs-500);
   box-shadow: 3px 3px 0px hsl(var(--color-shadow-blue), 0.5);
+}
+
+/* Teléfonos grande */
+@media (min-width: 30rem) and (max-width: 41.999rem) {
+  .hero-text {
+    padding-inline-end: 5rem;
+    font-size: 4rem;
+  }
+  .hero-text-title {
+    font-size: 8rem;
+  }
+}
+/* Ipad */
+@media (min-width: 42rem) {
+  .hero-grid {
+    grid-template: auto / repeat(2, auto);
+    padding: 1rem;
+  }
+  .hero-fondo {
+    grid-row: 1 / -1;
+    grid-column: 1 / -1;
+    transform: rotate(3deg);
+  }
+  .hero-text {
+    grid-row: 1 / -1;
+    grid-column: 1/ 2;
+  }
+  .hero-select {
+    grid-row: 1 / -1;
+    grid-column: 2 / -1;
+    padding: 1.3rem;
+    margin: 3rem 0 1.5remt;
+  }
+  .btn {
+    font-size: var(--fs-400);
+  }
 }

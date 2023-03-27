@@ -6,8 +6,12 @@ export default function Hero() {
       <div className="hero-grid">
         <div className="hero-fondo"></div>
         <div className="hero-text">
-          <h2>Las mejores guías gps de aventura alrededor de la ciudad de:</h2>
-          <h2>Sarajevo</h2>
+          <h2 className="ff-title linea-text color-white">
+            Las mejores guías gps de aventura alrededor de la ciudad de:
+          </h2>
+          <h2 className="ff-title color-blue linea-text hero-text-title">
+            Sarajevo
+          </h2>
         </div>
         <div className="hero-select">
           <h3 className="color-white">Elige tu pasión</h3>
