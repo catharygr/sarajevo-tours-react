@@ -210,7 +210,7 @@ meter {
 }
 
 /* ************************************ */
-/* Home  */
+/* HomeLayout Componente */
 /* ************************************ */
 
 .home-layout {
@@ -353,7 +353,7 @@ meter {
   }
 }
 /* Ipad */
-@media (min-width: 42rem) {
+@media (min-width: 42rem) and (max-width: 49.999rem) {
   .hero-grid {
     grid-template: auto / repeat(2, auto);
     padding: 1rem;
@@ -367,13 +367,53 @@ meter {
     grid-row: 1 / -1;
     grid-column: 1/ 2;
   }
+  .hero-text-title {
+    transform: rotate(-8deg) translate(70px, 20px);
+  }
   .hero-select {
     grid-row: 1 / -1;
     grid-column: 2 / -1;
     padding: 1.3rem;
-    margin: 3rem 0 1.5remt;
+    margin: 3rem 0 1.5rem;
   }
   .btn {
     font-size: var(--fs-400);
   }
+}
+
+@media (min-width: 50rem) {
+  .hero-grid {
+    grid-template: auto / 60% 20% 20%;
+    margin: 2rem 4rem;
+  }
+  .hero-fondo {
+    grid-row: 1 / -1;
+    grid-column: 1/ 3;
+  }
+  .hero-text {
+    grid-row: 1 / -1;
+    grid-column: 1/ 2;
+  }
+  .hero-text-title {
+    transform: rotate(-8deg) translate(40px, 10px);
+    font-size: 9rem;
+  }
+  .hero-select {
+    grid-row: 1 / -1;
+    grid-column: 2 / -1;
+    padding: 2rem;
+    margin: 5rem 0 2rem;
+    transform: initial;
+  }
+  .btn {
+    font-size: var(--fs-400);
+  }
+}
+
+/* ************************************ */
+/* CardHome Componentes*/
+/* ************************************ */
+
+.card-home {
+  max-width: 200px;
 }
