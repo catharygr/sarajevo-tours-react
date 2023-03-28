@@ -33,5 +33,5 @@ export default function HomeCards() {
     <CardHome key={card.imgUrl} card={card} />
   ));
 
-  return <div>{mapear}</div>;
+  return <div className="home-card-grid">{mapear}</div>;
 }

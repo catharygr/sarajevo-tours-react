@@ -415,6 +415,37 @@ meter {
 /* CardHome Componentes*/
 /* ************************************ */
 
-.card-home {
-  max-width: 200px;
+.home-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.home-card-container {
+  container-type: inline-size;
+}
+
+.home-card-article {
+  display: grid;
+  grid-template: repeat(3, auto) / auto;
+  background-color: hsl(var(--color-pink));
+  padding: 2rem;
+  border-radius: 30px;
+  gap: 1rem;
+  box-shadow: inset 5px 5px 0px hsl(var(--color-shadow-blue));
+}
+
+.home-card-article h3 {
+  font-size: var(--fs-700);
+  text-align: center;
+}
+
+.home-card-article img {
+  box-shadow: 0px 10px 10px hsl(var(--color-shadow-blue));
+}
+
+@container (min-width: 420px) {
+  .home-card-article {
+  }
 }
