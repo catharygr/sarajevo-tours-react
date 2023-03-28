@@ -218,6 +218,7 @@ meter {
   margin-inline: auto;
   background-color: hsl(var(--color-blue));
   background-image: url(/assets/images/bg-blue-stars.svg);
+  overflow: hidden;
 }
 
 /* ************************************ */
