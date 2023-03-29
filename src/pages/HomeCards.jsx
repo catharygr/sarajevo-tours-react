@@ -16,7 +16,7 @@ export default function HomeCards() {
         "Más de 300 km de caminos panorámicos y naturaleza pura en Bjelasnica e Igman para uno o si te atreves para aventuras de varios días...",
     },
     {
-      title: "Caminatas por alimentos y dulces",
+      title: "Caminatas por alimentos y postres",
       imgUrl: "/assets/images/food-card.jpg",
       description:
         "¿Quiere probar Sarajevo? Obtenga nuestro recorrido y sepa qué y dónde comer. Todo reservado con antelación, desayuno, almuerzo, cena. Y dulces.",
