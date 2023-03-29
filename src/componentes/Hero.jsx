@@ -9,7 +9,7 @@ export default function Hero() {
           <h2 className="ff-title linea-text color-white">
             Las mejores guías gps de aventura alrededor de la ciudad de:
           </h2>
-          <h2 className="ff-title color-blue linea-text hero-text-title">
+          <h2 className="ff-title color-blue linea-text hero-text-title rotate-sarajevo">
             Sarajevo
           </h2>
         </div>
