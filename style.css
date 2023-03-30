@@ -133,6 +133,15 @@ meter {
 /* Clases útiles */
 /* *********************************** */
 
+html,
+body,
+#root {
+  height: 100%;
+}
+.background-color-home {
+  min-height: 100%;
+}
+
 .linea-text {
   /* -webkit-text-stroke: 1px black; */
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
@@ -140,10 +149,22 @@ meter {
 }
 
 .btn {
-  padding: 0.8rem 1.5rem;
+  padding: 0.8rem 2.5rem;
   border-radius: 7px;
   font-size: var(--fs-500);
   box-shadow: 3px 3px 0px hsl(var(--color-shadow-blue), 0.5);
+  transition: all 0.1s;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+  box-shadow: 4px 4px 0px hsl(var(--color-shadow-blue), 0.5);
+  transition: all 0.1s;
+}
+
+.btn-active {
+  box-shadow: inset 4px 4px 0px hsl(var(--color-shadow-blue), 0.5);
+  background-color: hsl(var(--color-gray));
 }
 
 .btn-green {
@@ -397,20 +418,23 @@ meter {
   }
   .hero-text {
     grid-row: 1 / -1;
-    grid-column: 1/ 2;
+    grid-column: 1 / 2;
   }
   .hero-text-title {
     transform: rotate(-8deg) translate(70px, 20px);
   }
+
   .hero-select {
     grid-row: 1 / -1;
     grid-column: 2 / -1;
     padding: 1.3rem;
     margin: 3rem 0 1.5rem;
   }
-  .btn {
+
+  /* .btn {
     font-size: var(--fs-400);
-  }
+    
+  } */
 }
 
 @media (min-width: 50rem) {
@@ -485,6 +509,7 @@ meter {
 .home-card-article img {
   object-fit: cover;
   object-position: center;
+  align-self: stretch;
   aspect-ratio: 12/ 9;
   box-shadow: 3px 3px 0px hsl(var(--color-shadow-pink));
   border-radius: 20px;
@@ -529,6 +554,45 @@ meter {
   }
   .home-card-article h3 {
     font-size: 3.5rem;
+  }
+}
+
+/* ************************************ */
+/* Subselect Componentes*/
+/* ************************************ */
+
+.sub-select {
+  container-type: inline-size;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: hsl(var(--color-pink), 0.9);
+  border: 0.8rem solid hsl(var(--color-green));
+  border-radius: 30px;
+  text-align: center;
+  font-weight: 700;
+  margin: 3rem auto;
+  width: 80%;
+}
+
+@media (min-width: 50rem) {
+  .sub-select {
+    width: 60%;
+  }
+}
+
+.subselect-btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+@container ( min-width: 23rem ) {
+  .subselect-btn-container {
+    flex-direction: row;
+    justify-content: center;
   }
 }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -16,9 +17,30 @@ export default function Hero() {
         <div className="hero-select">
           <h3 className="color-white">Elige tu pasión</h3>
           <div className="hero-btn-container">
-            <button className="btn btn-green">Esquiar</button>
-            <button className="btn btn-green">MTB</button>
-            <button className="btn btn-green">Caminar</button>
+            <NavLink
+              to="esquiar"
+              className={({ isActive }) =>
+                isActive ? "btn-active btn" : "btn btn-green"
+              }
+            >
+              Esquiar
+            </NavLink>
+            <NavLink
+              to="mtb"
+              className={({ isActive }) =>
+                isActive ? "btn-active btn" : "btn btn-green"
+              }
+            >
+              MTB
+            </NavLink>
+            <NavLink
+              to="caminar"
+              className={({ isActive }) =>
+                isActive ? "btn-active btn" : "btn btn-green"
+              }
+            >
+              Caminar
+            </NavLink>
           </div>
         </div>
       </div>
