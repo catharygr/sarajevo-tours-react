@@ -29,9 +29,10 @@ export default function HomeCards() {
     },
   ];
 
-  const mapear = dataCards.map((card) => (
-    <CardHome key={card.imgUrl} card={card} />
-  ));
+  const mapear = dataCards.map((card) => {
+    const { title, imgUrl, description } = card;
+    return <CardHome key={card.imgUrl} card={{ title, imgUrl, description }} />;
+  });
 
   return <div className="home-card-grid">{mapear}</div>;
 }

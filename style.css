@@ -378,7 +378,6 @@ body,
   background-color: hsl(var(--color-pink), 0.9);
   border: 0.8rem solid hsl(var(--color-blue));
   border-radius: 30px;
-  /* max-width: 17rem; */
   text-align: center;
   aspect-ratio: 1;
   font-weight: 700;
@@ -430,11 +429,6 @@ body,
     padding: 1.3rem;
     margin: 3rem 0 1.5rem;
   }
-
-  /* .btn {
-    font-size: var(--fs-400);
-    
-  } */
 }
 
 @media (min-width: 50rem) {
@@ -463,9 +457,6 @@ body,
     margin: 5rem 0 2rem;
     transform: initial;
     max-width: 19rem;
-  }
-  .btn {
-    font-size: var(--fs-400);
   }
 }
 

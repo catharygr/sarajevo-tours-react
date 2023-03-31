@@ -1,5 +1,4 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
 import Subselect from "../componentes/Subselect";
 
 export default function MtbLayout() {
@@ -8,12 +7,11 @@ export default function MtbLayout() {
     to2: "varios-dias",
     btn1: "Un dia",
     btn2: "Varios días",
-    title: "Elige tus días",
+    title: "Elige la longitud",
   };
   return (
     <>
       <Subselect dataProps={{ ...props }} />
-      <Outlet />
     </>
   );
 }
