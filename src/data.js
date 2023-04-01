@@ -48,7 +48,7 @@ export default [
       "Durante los Juegos Olímpicos de Invierno de 1984, el monte Bjelasnica (Bjelašnica) acogió competiciones de esquí alpino de Man, mientras que el monte Igman (a 10 minutos en coche de Bjelašnica) fue un punto de encuentro para los esquiadores nórdicos: biatlón de fondo. Bjelašnica es la novena montaña más alta de Bosnia y Herzegovina, ¡y puedes esquiar desde su cima! Las pistas terminan a 1270m sobre el nivel del mar. Casi todas las instalaciones construidas para los Juegos Olímpicos de Invierno '84 fueron devastadas durante la guerra reciente, por lo que todas las instalaciones actuales son de nueva construcción. Igman está a solo 10 minutos en coche al oeste de Bjelašnica y representa un lugar perfecto para los amantes de la diversión a campo traviesa o cuesta abajo con niños. Hay una pista de fondo de 20 km en Veliko Polje, mientras que en Malo Polje se puede encontrar un lugar de ensueño para principiantes y niños. Justo al lado de la instalación de saltos de esquí que no funciona, hay un telesilla doble con una pendiente roja/azul y un tramo negro. Además, hay tres ascensores para bebés instalados en la suave pendiente de 100 metros de largo. Mt.Igman es el segundo lugar más rico de Europa por el porcentaje de ozono en el aire.",
     price: 20,
     category: "esqui",
-    location: "Bjelašnica",
+    location: "Bjelasnica",
     imgUrl: "/assets/images/bike-card.jpg",
   },
   {
@@ -61,7 +61,7 @@ export default [
       "Las pistas de “Babin Do” son una de las mejores pistas de esquí europeas. Esta estación de esquí cuenta con ocho pistas de esquí y cinco senderos para niños, 3 telesillas y 5 remontes, que conducen a la cima de la montaña Bjelašnica, que se encuentra a 2067 metros sobre el nivel del mar.Partes del sendero están iluminadas con luces de competencia de alta calidad para el esquí nocturno; El centro de esquí también tiene instalado un sistema de nieve artificial.La modernización del transporte vertical, además del telesilla de 6 plazas, también incluye el telesilla de 4 plazas desde “Međustanica” (estación cruzada) hasta la cima de la montaña Bjelašnica. El alquiler y el servicio de esquí se encuentran cerca de la casa de destino Benneton. “Babin Do” dispone de un amplio parking con más de 1.200 plazas de aparcamiento.",
     price: 20,
     category: "esqui",
-    location: "Bjelašnica",
+    location: "Bjelasnica",
     imgUrl: "/assets/images/bike-card.jpg",
   },
   {
@@ -72,7 +72,7 @@ export default [
       "Obtenga ambas guías de la montaña Bjelašnica con un descuento especial del 25% sobre el precio total combinado",
     description: "",
     price: 30,
-    location: "Bjelašnica",
+    location: "Bjelasnica",
     category: "esqui",
     imgUrl: "/assets/images/bike-card.jpg",
   },

@@ -108,7 +108,7 @@ meter {
   --color-gray: 166, 17%, 71%;
   --color-blue: 223, 78%, 68%;
   --color-white: 0, 0%, 100%;
-  --color-black: 245, 50% 5%;
+  --color-black: 245, 50%, 5%;
   --color-shadow-blue: 223, 33%, 39%;
   --color-shadow-pink: 340, 31%, 39%;
 
@@ -137,9 +137,6 @@ html,
 body,
 #root {
   height: 100%;
-}
-.background-color-home {
-  min-height: 100%;
 }
 
 .linea-text {
@@ -174,6 +171,12 @@ body,
 .btn-pink {
   background-color: hsl(var(--color-pink));
 }
+
+.underline {
+  border-bottom: 1px solid hsl(var(--color-black));
+  align-self: center;
+}
+
 /* *********************************** */
 /* Colores */
 /* *********************************** */
@@ -264,6 +267,7 @@ body,
 
 .background-color-home {
   background-color: hsl(var(--color-pink));
+  min-height: 100%;
 }
 
 /* ************************************ */

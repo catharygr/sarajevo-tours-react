@@ -14,7 +14,7 @@ export default function CardHome({ card }) {
         <h3 className="ff-title color-white">{title}</h3>
         <img src={imgUrl} alt="imagen de una chica tumbada en la nieve" />
         {description && <p>{description}</p>}
-        {summary && <p>{description}</p>}
+        {summary && <p>{summary}</p>}
       </article>
     </div>
   );

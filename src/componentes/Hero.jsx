@@ -42,6 +42,9 @@ export default function Hero() {
               Caminar
             </NavLink>
           </div>
+          <NavLink to="/" className="underline">
+            Limpiar filtro
+          </NavLink>
         </div>
       </div>
     </div>
