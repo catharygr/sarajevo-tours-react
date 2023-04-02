@@ -14,7 +14,7 @@ export default function Hero() {
             Sarajevo
           </h2>
         </div>
-        <div className="hero-select">
+        <div className="hero-select hero-select-home">
           <h3 className="color-white">Elige tu pasión</h3>
           <div className="hero-btn-container">
             <NavLink

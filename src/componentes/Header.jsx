@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Header({ color }) {
   return (
@@ -18,9 +19,11 @@ export default function Header({ color }) {
         />
       </div>
       <div>
-        <h1 className={`fs-700 logo-text ${color} text-shadow-blue`}>
-          Sarajevo Tours
-        </h1>
+        <Link to="/">
+          <h1 className={`fs-700 logo-text ${color} text-shadow-blue`}>
+            Sarajevo Tours
+          </h1>
+        </Link>
       </div>
     </div>
   );

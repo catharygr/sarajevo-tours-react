@@ -5,7 +5,7 @@ export default [
     subtitle: "Guía GPS completa.Todo incluido",
     hero: {
       title: "Jahorina",
-      text: "Montaña olímpica con 36 km de pistas y 31.000 pers/h",
+      text: "Montaña olímpica con 36 km de pistas y 31.000 pers/h.",
     },
     summary:
       "Hoteles, apartamentos o acogedoras casas a pie de pistas. O si tiene un automóvil, quédese en Sarajevo, ya que Jahorina está a solo 24 km de distancia. Tenemos todas las respuestas para ti mientras te preparas para unas vacaciones.",
@@ -22,7 +22,7 @@ export default [
     subtitle: "Guía GPS completa.Todo incluido",
     hero: {
       title: "Jahorina",
-      text: "Elige tu hotel, cabaña a pie de la pista",
+      text: "Elige tu hotel, cabaña a pie de la pista.",
     },
     summary:
       "¿Cuál es el mejor telesquí para empezar el día (y aparcar el coche a 20 m cerca del telesilla y del quiosco de forfaits) y cómo llegar a las mejores pistas en poco tiempo disfrutando de esas primeras rondas antes de que lleguen las escuelas de esquí? ¿Qué pistas aguantan mejor si hace calor? ¿Qué hacer si hay niebla, dónde aparcar el coche... en qué pendiente ir?",
