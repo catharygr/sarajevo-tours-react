@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Header() {
+export default function Header({ color }) {
   return (
     <div className="header-container">
       <div className="nav-cart">
@@ -18,7 +18,7 @@ export default function Header() {
         />
       </div>
       <div>
-        <h1 className="fs-700 logo-text color-orange text-shadow-blue ">
+        <h1 className={`fs-700 logo-text ${color} text-shadow-blue`}>
           Sarajevo Tours
         </h1>
       </div>

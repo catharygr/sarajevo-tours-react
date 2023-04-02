@@ -13,6 +13,7 @@ export default function SkiLayout() {
     title: "Elige tu montaña",
   };
 
+  // eslint-disable-next-line no-unused-vars
   const [searchParams, setSearchParams] = useSearchParams();
   const typeFilter = searchParams.get("type");
   console.log(typeFilter);
@@ -27,7 +28,7 @@ export default function SkiLayout() {
 
   const mapear = dataFilter.map((card) => {
     const { id, title, imgUrl, summary } = card;
-    return <CardHome key={id} card={{ title, imgUrl, summary }} />;
+    return <CardHome key={id} card={{ id, title, imgUrl, summary }} />;
   });
   return (
     <>

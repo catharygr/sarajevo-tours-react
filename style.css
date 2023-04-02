@@ -258,15 +258,28 @@ body,
 .home-layout {
   max-width: 1000px;
   margin-inline: auto;
-  background-color: hsl(var(--color-blue));
-  background-image: url(/assets/images/bg-blue-stars.svg);
   overflow: hidden;
   background-size: cover;
   box-shadow: 10px 10px 0px hsl(var(--color-shadow-blue));
 }
 
+.home-layout-blue {
+  background-color: hsl(var(--color-blue));
+  background-image: url(/assets/images/bg-blue-stars.svg);
+}
+
+.home-layout-pink {
+  background-color: hsl(var(--color-pink));
+  background-image: url(/assets/images/circle.svg);
+}
+
 .background-color-home {
   background-color: hsl(var(--color-pink));
+  min-height: 100%;
+}
+
+.background-color-products {
+  background-color: hsl(var(--color-blue));
   min-height: 100%;
 }
 
