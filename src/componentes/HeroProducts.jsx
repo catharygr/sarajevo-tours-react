@@ -1,8 +1,8 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import { NavLink } from "react-router-dom";
 
 export default function HeroProducts({ title, text, price }) {
-  console.log(text);
   return (
     <div className="hero-container">
       <div className="hero-grid">

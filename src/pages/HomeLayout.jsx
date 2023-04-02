@@ -7,7 +7,7 @@ import Footer from "../componentes/Footer";
 export default function Home() {
   return (
     <div className="background-color-home">
-      <div className="home-layout-blue">
+      <div className=" home-layout home-layout-blue">
         <Header color="color-orange" />
         <Hero />
         <Outlet />
