@@ -151,6 +151,7 @@ body,
   font-size: var(--fs-500);
   box-shadow: 3px 3px 0px hsl(var(--color-shadow-blue), 0.5);
   transition: all 0.1s;
+  font-weight: 700;
 }
 
 .btn:hover {
@@ -731,10 +732,25 @@ p {
 /* Banner Componentes*/
 /* ************************************ */
 
+.banner-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.banner-aside h4 {
+  font-size: 3rem;
+  font-stretch: 75%;
+}
+
 .banner-container {
   background-color: aqua;
   margin-inline: auto;
   max-width: min(90%, 650px);
+}
+
+.btn-img-container {
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
 /* ************************************ */
