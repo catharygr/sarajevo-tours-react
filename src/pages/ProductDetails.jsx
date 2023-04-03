@@ -22,13 +22,13 @@ export default function ProductDetails() {
   return (
     <>
       <HeroProducts title={heroTitle} price={price} text={heroText} />
-      <div className="details-container">
+      <article className="details-container">
         <h1 className="color-white">{title}</h1>
         <h3 className="color-white">{subtitle}</h3>
         <img src={imgUrl} alt={heroText} />
-        <p>{description}</p>
+        <p className="color-white">{description}</p>
         <img src={imgUrl2} alt={heroText} />
-      </div>
+      </article>
     </>
   );
 }

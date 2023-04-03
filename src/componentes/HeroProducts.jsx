@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 export default function HeroProducts({ title, text, price }) {
   return (
@@ -14,19 +13,12 @@ export default function HeroProducts({ title, text, price }) {
           </h2>
         </div>
         <div className="hero-select hero-select-product">
-          <h3 className="color-white">
+          <h3 className="color-white fs-500">
             Las mejores guías dígital con GPS.Todos los detalles y más.
           </h3>
-          <p className="fs-700 text-shadow-white ">{price}€</p>
+          <p className="fs-700 price">{price}€</p>
           <div className="hero-btn-container">
-            <NavLink
-              to="caminar"
-              className={({ isActive }) =>
-                isActive ? "btn-active btn" : "btn btn-green"
-              }
-            >
-              Comprar{" "}
-            </NavLink>
+            <button className="btn btn-green">Comprar</button>
           </div>
         </div>
       </div>
