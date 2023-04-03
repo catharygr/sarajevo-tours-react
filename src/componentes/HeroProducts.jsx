@@ -5,7 +5,7 @@ export default function HeroProducts({ title, text, price }) {
   return (
     <div className="hero-container">
       <div className="hero-grid">
-        <div className="hero-fondo"></div>
+        <div className="hero-fondo box-shadow-pink"></div>
         <div className="hero-text">
           <h2 className="ff-title linea-text color-white">{text}</h2>
           <h2 className="ff-title color-blue linea-text hero-text-title rotate-sarajevo">

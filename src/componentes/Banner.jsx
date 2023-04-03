@@ -6,11 +6,8 @@ export default function Banner({ bannerType }) {
 
   return (
     <div className="banner-container">
-      <aside
-        className="banner-aside"
-        style={{ backgroundColor: `hsl(var(--color-${color}))` }}
-      >
-        <div className="color-white">
+      <aside className={`banner-aside banner-aside-${color}`}>
+        <div className="banner-aside-text">
           <h4>{title}</h4>
           <p>{description}</p>
         </div>
@@ -18,7 +15,7 @@ export default function Banner({ bannerType }) {
           className="btn-img-container"
           style={{ backgroundImage: `url(${imgUrl})` }}
         >
-          <button className="btn btn-green">Comprar</button>
+          <button className="btn btn-green color-black">Comprar</button>
         </div>
       </aside>
     </div>

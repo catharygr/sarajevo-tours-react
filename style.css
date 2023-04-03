@@ -224,7 +224,11 @@ body,
 }
 
 .box-shadow-pink {
-  box-shadow: 5px 5px 0px var(--color-shadow-pink);
+  box-shadow: 5px 5px 0px hsl(var(--color-shadow-pink));
+}
+
+.box-shadow-blue {
+  box-shadow: 5px 5px 0px hsl(var(--color-shadow-blue));
 }
 
 /* *********************************** */
@@ -370,7 +374,6 @@ p {
 
 .hero-fondo {
   background-color: hsl(var(--color-green));
-  box-shadow: 5px 5px 0px hsl(var(--color-shadow-blue));
   grid-row: 1 / -1;
   grid-column: 1 / -1;
   border-radius: 15px;
@@ -639,7 +642,7 @@ p {
   display: grid;
   gap: 1rem;
   padding: 1rem;
-  margin-top: 4rem;
+  margin-block: 3rem;
 }
 
 .details-container h1,
@@ -732,25 +735,75 @@ p {
 /* Banner Componentes*/
 /* ************************************ */
 
+.banner-container {
+  container-type: inline-size;
+  margin-inline: auto;
+  max-width: min(90%, 700px);
+}
+
 .banner-aside {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 5px 5px 0 hsl(var(--color-shadow-pink));
+}
+
+.banner-aside-blue {
+  background-color: hsl(var(--color-blue));
+  color: hsl(var(--color-white));
+}
+
+.banner-aside-white {
+  background-color: hsl(var(--color-white));
+  color: hsl(var(--color-black));
 }
 
 .banner-aside h4 {
   font-size: 3rem;
   font-stretch: 75%;
+  line-height: 0.9;
 }
 
-.banner-container {
-  background-color: aqua;
-  margin-inline: auto;
-  max-width: min(90%, 650px);
+.banner-aside-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 2rem;
 }
 
 .btn-img-container {
-  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  clip-path: polygon(0 25%, 50% 0%, 100% 25%, 100% 100%, 0% 100%);
+  display: grid;
+  place-content: center;
+  padding: 5rem 3rem 3rem;
+  background-position: bottom;
+  background-size: cover;
+}
+
+@container (min-width: 37rem) {
+  .banner-aside {
+    flex-direction: row-reverse;
+    gap: 0;
+  }
+  .banner-aside-text {
+    gap: 1rem;
+    flex: 3 1 0;
+    padding: 2rem 2rem 2rem 1rem;
+  }
+  .banner-aside-text h4 {
+    text-align: start;
+  }
+  .banner-aside-text p {
+    text-align: end;
+  }
+  .btn-img-container {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    flex: 2 1 0;
+    padding: 1rem;
+  }
 }
 
 /* ************************************ */
