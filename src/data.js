@@ -38,6 +38,10 @@ export default [
     id: 3,
     title: "Obtener ambas guias de Jahorina con el 20% de descuento",
     subtitle: "Obtener ambos GPS. Todo incluido",
+    hero: {
+      heroTitle: "Jahorina",
+      heroText: "Elige tu hotel, cabaña a pie de la pista.",
+    },
     summary:
       "Obtenga ambas guías de la montaña Jahorina con un descuento especial del 25% sobre el precio total combinado",
     description: "",
