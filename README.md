@@ -4,16 +4,18 @@
 
 ### CSS
 
-El uso de flexbox, grid, container-query, fuentes variables.
+El uso de flexbox, grid, container-query, fuentes variables, css variables, clip-path
 
 ## React router
 
-Usando rutas nidadas, rutas relativas, Outles.
+Usando rutas nidadas, rutas relativas, Outles, rutas relativas, parámetros de búsquedas
 
 ## React
 
-Componentes, props.
+Componentes, props, formularios con estado
 
 ## Firebase
 
 Trabajando en progreso
+
+##
