@@ -19,7 +19,7 @@ export default function SkiLayout() {
   console.log(typeFilter);
 
   const dataFilter = data.filter((product) => {
-    if (!typeFilter) {
+    if (!typeFilter && product.category === "esqui") {
       return product;
     } else if (typeFilter === product.location.toLowerCase()) {
       return product;

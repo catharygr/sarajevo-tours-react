@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import NavBtn from "./NavBtn";
 
 export default function Hero() {
   return (
@@ -17,30 +18,9 @@ export default function Hero() {
         <div className="hero-select hero-select-home">
           <h3 className="color-white">Elige tu pasión</h3>
           <div className="hero-btn-container">
-            <NavLink
-              to="esquiar"
-              className={({ isActive }) =>
-                isActive ? "btn-active btn" : "btn btn-green"
-              }
-            >
-              Esquiar
-            </NavLink>
-            <NavLink
-              to="mtb"
-              className={({ isActive }) =>
-                isActive ? "btn-active btn" : "btn btn-green"
-              }
-            >
-              MTB
-            </NavLink>
-            <NavLink
-              to="caminar"
-              className={({ isActive }) =>
-                isActive ? "btn-active btn" : "btn btn-green"
-              }
-            >
-              Caminar
-            </NavLink>
+            <NavBtn pathTo="esquiar" title="Esquiar" color="green" />
+            <NavBtn pathTo="mtb" title="MTB" color="green" />
+            <NavBtn pathTo="caminar" title="Caminar" color="green" />
           </div>
           <NavLink to="/" className="underline">
             Limpiar filtro

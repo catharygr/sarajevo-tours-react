@@ -167,10 +167,17 @@ body,
 
 .btn-green {
   background-color: hsl(var(--color-green));
+  color: hsl(var(--color-black));
 }
 
 .btn-pink {
   background-color: hsl(var(--color-pink));
+  color: hsl(var(--color-black));
+}
+
+.btn-blue {
+  background-color: hsl(var(--color-blue));
+  color: hsl(var(--color-white));
 }
 
 .underline {
@@ -819,6 +826,7 @@ p {
 /* ************************************ */
 
 .form-container {
+  container-type: inline-size;
   background-color: hsl(var(--color-orange));
   max-width: min(90%, 700px);
   margin: 2rem auto;
@@ -830,8 +838,12 @@ p {
 .form-contact {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  gap: 1rem;
+  gap: 2rem;
+}
+
+.form-contact button,
+h1 {
+  align-self: center;
 }
 
 .name-email {
@@ -845,6 +857,11 @@ p {
   flex-direction: column;
 }
 
+.label-container label {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
 .form-input {
   background-color: hsl(var(--color-white));
   border-radius: 3px;
@@ -852,6 +869,16 @@ p {
   box-shadow: inset 2px 2px 0 hsl(var(--color-shadow-blue), 0.8);
   color: hsl(var(--color-black));
   padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+@container (min-width: 33rem) {
+  .name-email {
+    flex-direction: row;
+  }
+  .label-container {
+    flex: 1 0 auto;
+  }
 }
 
 /* ************************************ */

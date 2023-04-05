@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import React from "react";
+import Button from "./Button";
 
 export default function Banner({ bannerType }) {
   const { color, title, description, imgUrl, productoId } = bannerType;
@@ -16,7 +17,7 @@ export default function Banner({ bannerType }) {
           className="btn-img-container"
           style={{ backgroundImage: `url(${imgUrl})` }}
         >
-          <button className="btn btn-green color-black">Comprar</button>
+          <Button className="color-black" color="green" title="Comprar" />
         </div>
       </aside>
     </div>

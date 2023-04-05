@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from "react";
+import Button from "./Button";
 
 export default function HeroProducts({ title, text, price }) {
   return (
@@ -18,7 +19,7 @@ export default function HeroProducts({ title, text, price }) {
           </h3>
           <p className="fs-700 price">{price}€</p>
           <div className="hero-btn-container">
-            <button className="btn btn-green">Comprar</button>
+            <Button color="green" title="Comprar" />
           </div>
         </div>
       </div>

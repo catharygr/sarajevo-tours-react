@@ -1,9 +1,10 @@
 import React from "react";
+import Button from "./Button";
 
 export default function Footer() {
   return (
     <div className="footer">
-      <button className="btn btn-pink">Panel admin</button>
+      <Button color="pink" title="Panel admin" />
       <div>
         <h3 className=" ff-title fs-700 color-white">
           Hecho en 2023 por Bony & Cubi.
