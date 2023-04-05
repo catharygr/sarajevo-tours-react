@@ -59,6 +59,7 @@ export default function Contact() {
         <div className="form-container box-shadow-blue">
           {!isSuccess ? (
             <form className="form-contact" onSubmit={handleSubmit}>
+              <input type="hidden" name="form-name" value="contact" />
               <h1 className="fs-700 ff-title color-white text-shadow-pink ">
                 Escríbeme
               </h1>
