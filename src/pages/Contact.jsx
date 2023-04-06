@@ -6,7 +6,7 @@ import Button from "../componentes/Button";
 export default function Contact() {
   const [isSuccess, setIsSuccess] = React.useState(false);
   const [formData, setFormData] = React.useState({
-    name: "",
+    nombre: "",
     email: "",
     mensaje: "",
   });
@@ -23,7 +23,7 @@ export default function Contact() {
   }
   function handleSuccess() {
     setFormData({
-      name: "",
+      nombre: "",
       email: "",
       mensaje: "",
     });
@@ -65,12 +65,12 @@ export default function Contact() {
               </h1>
               <div className="name-email">
                 <div className="label-container">
-                  <label htmlFor="name">Nombre</label>
+                  <label htmlFor="nombre">Nombre</label>
                   <input
                     className="form-input"
                     type="text"
-                    name="name"
-                    id="name"
+                    name="nombre"
+                    id="nombre"
                     value={formData.name}
                     onChange={handleChange}
                   />
