@@ -9,6 +9,7 @@ import Walk from "./pages/Walk";
 import ProductLayout from "./pages/ProductLayout";
 import ProductDetails from "./pages/ProductDetails";
 import Contact from "./pages/Contact";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         </Route>
 
         <Route path="contacto" element={<Contact />} />
+        <Route path="admin" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );
