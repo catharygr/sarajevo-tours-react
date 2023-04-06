@@ -1,16 +1,17 @@
 export default [
   {
     id: "1",
-    title: "Ski slopes GPS guide for Jahorina",
-    subtitle: "GPS enabled guide, all inclusive",
+    title: "Pistas de esquí Guía GPS para Jahorina",
+    subtitle: "Guía habilitado para GPS, todo incluido.",
     hero: {
       heroTitle: "Jahorina",
-      heroText: "Olympic mountain with 35km of ski slopes, 31.000 skiiers/h",
+      heroText:
+        "Montaña olímpica con 35km de pistas de esquí, 31.000 esquiadores/h.",
     },
     summary:
-      "What is the best ski lift to start the day (and park the car 20 m near the chairlift and ski pass kiosk) and how to get to the best slopes in a short time enjoying those first rounds before the ski schools arrive? Which tracks hold up best if it's hot? What to do if there is fog, where to park the car... What slope to go?",
+      "¿Cuál es el mejor telesilla para empezar el día (y aparcar el coche a 20 m cerca del telesilla y quiosco de forfaits) y cómo llegar a las mejores pistas en poco tiempo disfrutando de esas primeras vueltas antes de que lleguen las escuelas de esquí? ¿Qué pistas aguantan mejor si hace calor? Qué hacer si hay niebla, dónde aparcar el coche... ¿A qué pendiente ir?",
     description:
-      "Jahorina is a popular ski resort located in Bosnia and Herzegovina, about 30 km from the capital city of Sarajevo. The resort offers a variety of ski slopes for skiers of all levels. Here's a description of the ski slopes in Jahorina: Beginner slopes: Jahorina has several gentle slopes that are perfect for beginners. These slopes are located near the bottom of the mountain and are easily accessible from the base area. They offer a gentle gradient that allows beginners to practice their turns and build confidence. Intermediate slopes: Jahorina has several intermediate slopes that are perfect for skiers who have mastered the basics and are looking to improve their skills. These slopes are located higher up the mountain and offer more challenging terrain, including steeper gradients and more moguls. Advanced slopes: Jahorina has a few advanced slopes that are perfect for experienced skiers who are looking for a challenge. These slopes are located near the top of the mountain and offer steep gradients, tight turns, and challenging moguls. The advanced slopes in Jahorina are not as numerous as the intermediate and beginner slopes, but they provide a good challenge for advanced skiers. Off-piste terrain: Jahorina also offers some off-piste terrain for skiers who are looking for an adventure. The resort has several areas where skiers can ski off the groomed runs and explore the natural terrain. Skiers should always exercise caution when skiing off-piste, as there may be hidden dangers such as rocks or crevasses. Overall, Jahorina offers a good mix of ski slopes for skiers of all levels. The slopes are well-maintained and offer a variety of terrain, from gentle slopes for beginners to challenging runs for advanced skiers.",
+      "Jahorina es una popular estación de esquí ubicada en Bosnia y Herzegovina, a unos 30 km de la ciudad capital de Sarajevo. El complejo ofrece una variedad de pistas de esquí para esquiadores de todos los niveles. Aquí hay una descripción de las pistas de esquí en Jahorina: Pistas para principiantes: Jahorina tiene varias pistas suaves que son perfectas para principiantes. Estas laderas están ubicadas cerca de la base de la montaña y son fácilmente accesibles desde el área de la base. Ofrecen una pendiente suave que permite a los principiantes practicar sus giros y ganar confianza. Pistas intermedias: Jahorina tiene varias pistas intermedias que son perfectas para los esquiadores que dominan los conceptos básicos y buscan mejorar sus habilidades. Estas pendientes están ubicadas más arriba en la montaña y ofrecen un terreno más desafiante, que incluye pendientes más pronunciadas y más montículos. Pistas avanzadas: Jahorina tiene algunas pistas avanzadas que son perfectas para esquiadores experimentados que buscan un desafío. Estas pistas están ubicadas cerca de la cima de la montaña y ofrecen pendientes pronunciadas, giros cerrados y montículos desafiantes. Las pistas avanzadas en Jahorina no son tan numerosas como las pistas intermedias y para principiantes, pero brindan un buen desafío para los esquiadores avanzados. Terreno fuera de pista: Jahorina también ofrece terreno fuera de pista para los esquiadores que buscan una aventura. El complejo cuenta con varias áreas donde los esquiadores pueden esquiar fuera de las pistas preparadas y explorar el terreno natural. Los esquiadores siempre deben tener cuidado al esquiar fuera de pista, ya que puede haber peligros ocultos, como rocas o grietas. En general, Jahorina ofrece una buena combinación de pistas de esquí para esquiadores de todos los niveles. Las pistas están bien mantenidas y ofrecen una variedad de terrenos, desde pendientes suaves para principiantes hasta carreras desafiantes para esquiadores avanzados.",
     price: "25",
     category: "esqui",
     location: "jahorina",
@@ -19,16 +20,17 @@ export default [
   },
   {
     id: "2",
-    title: "Accomodation guide for Jahorina",
-    subtitle: "Full GPS guide, all inclusive",
+    title: "Guía de alojamiento para Jahorina",
+    subtitle: "Guía GPS completa, todo incluido",
     hero: {
       heroTitle: "Jahorina",
-      heroText: "Choose what you like: hotel, bungalow, or mountain hut",
+      heroText:
+        "Elige lo que más te guste: hotel, bungalow o refugio de montaña",
     },
     summary:
-      "Accommodation options in Jahorina include hotels, private apartments, hostels, and mountain huts. Hotels offer a range of amenities such as restaurants, bars, and ski-in/ski-out access. Private apartments offer more space and privacy than hotels. Hostels are a budget-friendly option for solo travelers or groups. Mountain huts offer a rustic experience for visitors who want to be closer to nature.",
+      "Las opciones de alojamiento en Jahorina incluyen hoteles, apartamentos privados, hostales y refugios de montaña. Los hoteles ofrecen una variedad de servicios, como restaurantes, bares y acceso directo a las pistas de esquí. Los apartamentos privados ofrecen más espacio y privacidad que los hoteles. Los albergues son una opción económica para personas que viajan solas o en grupo. Los refugios de montaña ofrecen una experiencia rústica para los visitantes que quieren estar más cerca de la naturaleza.",
     description:
-      "Jahorina ski resort offers a variety of accommodation options for visitors, ranging from hotels to private apartments. Here's a description of the accommodation options in Jahorina: Hotels: Jahorina has several hotels located in or near the base area of the resort. These hotels offer a range of amenities, including restaurants, bars, spas, and fitness centers. Some of the hotels in Jahorina also offer ski-in/ski-out access, meaning that skiers can access the slopes directly from the hotel. Private apartments: Jahorina also has several private apartments available for rent. These apartments range in size from small studios to large apartments that can accommodate several people. Private apartments are a good option for visitors who want more space and privacy than a hotel room can provide. Hostels: For budget-conscious travelers, Jahorina has a few hostels located near the base area of the resort. These hostels offer shared dormitory-style rooms as well as private rooms. Hostels are a good option for solo travelers or groups who want to save money on accommodation.Mountain huts: For visitors who want a more rustic experience, Jahorina has several mountain huts located on the slopes. These huts offer basic accommodation and are often located near the top of the mountain. They are a good option for visitors who want to ski all day and spend their nights in a cozy, remote setting. Overall, Jahorina offers a variety of accommodation options to suit every budget and preference. Visitors can choose from hotels, private apartments, hostels, and mountain huts, depending on their needs and preferences.",
+      "La estación de esquí de Jahorina ofrece una variedad de opciones de alojamiento para los visitantes, que van desde hoteles hasta apartamentos privados. Aquí hay una descripción de las opciones de alojamiento en Jahorina: Hoteles: Jahorina tiene varios hoteles ubicados en o cerca del área base del resort. Estos hoteles ofrecen una variedad de servicios, incluidos restaurantes, bares, spas y gimnasios. Algunos de los hoteles en Jahorina también ofrecen acceso ski-in/ski-out, lo que significa que los esquiadores pueden acceder a las pistas directamente desde el hotel. Apartamentos privados: Jahorina también tiene varios apartamentos privados disponibles para alquilar. Estos apartamentos varían en tamaño desde pequeños estudios hasta grandes apartamentos con capacidad para varias personas. Los apartamentos privados son una buena opción para los visitantes que desean más espacio y privacidad de los que puede ofrecer una habitación de hotel. Albergues: para los viajeros que cuidan su presupuesto, Jahorina tiene algunos albergues ubicados cerca del área base del complejo. Estos albergues ofrecen habitaciones compartidas estilo dormitorio, así como habitaciones privadas. Los albergues son una buena opción para personas que viajan solas o grupos que quieren ahorrar dinero en alojamiento. Refugios de montaña: para los visitantes que desean una experiencia más rústica, Jahorina tiene varios refugios de montaña ubicados en las laderas. Estas cabañas ofrecen alojamiento básico y, a menudo, se encuentran cerca de la cima de la montaña. Son una buena opción para los visitantes que quieren esquiar todo el día y pasar la noche en un lugar remoto y acogedor. En general, Jahorina ofrece una variedad de opciones de alojamiento para todos los presupuestos y preferencias. Los visitantes pueden elegir entre hoteles, apartamentos privados, hostales y refugios de montaña, según sus necesidades y preferencias.",
     price: "25",
     category: "esqui",
     location: "jahorina",
@@ -37,11 +39,13 @@ export default [
   },
   {
     id: "3",
-    title: "20% discount offer",
-    subtitle: "Get both Jahorina guides, the slopes and the acomodation",
+    title: "Oferta del 20% de descuento",
+    subtitle:
+      "Consigue las dos guías de Jahorina, las pistas y el alojamiento.",
     hero: {
-      heroTitle: "20% OFF",
-      heroText: "Special offer, both Jahorina guides in one convenient pack",
+      heroTitle: "20% DE DESCUENTO",
+      heroText:
+        "Oferta especial, ambas guías de Jahorina en un paquete conveniente",
     },
     summary:
       "Jahorina is a great destination for skiing in Bosnia and Herzegovina. Its well-maintained slopes, modern lifts, and stunning views make it a popular choice for skiers of all levels.",
@@ -56,16 +60,16 @@ export default [
 
   {
     id: "4",
-    title: "Ski slopes GPS guide for Bjelasnica",
-    subtitle: "GPS enabled guide, all inclusive",
+    title: "Oferta del 20% de descuento",
+    subtitle: "Guía habilitado para GPS, todo incluido.",
     hero: {
       heroTitle: "Bjelasnica",
-      heroText: "Olympic mountain with 20km of ski slopes.",
+      heroText: "Montaña olímpica con 20km de pistas de esquí.",
     },
     summary:
-      "Bjelasnica offers a great range of slopes for skiers of different levels, and the beautiful views of the surrounding countryside make it a popular destination for winter sports enthusiasts. The slopes are well-maintained, and the ski resort offers a range of amenities and services, including ski rentals, lessons, and accommodations.",
+      "Bjelasnica ofrece una gran variedad de pistas para esquiadores de diferentes niveles, y las hermosas vistas del campo circundante lo convierten en un destino popular para los entusiastas de los deportes de invierno. Las pistas están bien mantenidas y la estación de esquí ofrece una variedad de comodidades y servicios, que incluyen alquiler de esquís, lecciones y alojamiento.",
     description:
-      "Bjelasnica is a mountain located near Sarajevo, Bosnia and Herzegovina, and it is also a popular ski resort with a variety of slopes for skiers of different levels. Here is a description of the ski slopes on Bjelasnica: Beginner slopes: Bjelasnica offers several easy and gentle slopes for beginners to learn and practice skiing. These slopes are located near the base area and are easily accessible. They are perfect for beginners to learn the basics and build their confidence. Intermediate slopes: Bjelasnica has several intermediate slopes that are great for skiers who have some experience but are not yet ready for advanced slopes. These slopes have steeper gradients and more challenging terrain than beginner slopes, and are great for improving skiing skills. Advanced slopes: Bjelasnica has many challenging slopes that are perfect for experienced skiers. These slopes have steep gradients, moguls, and are often ungroomed, providing a real test for advanced skiers. They are located at higher elevations and offer great views of the surrounding area. Off-piste terrain: Bjelasnica also offers some off-piste terrain for adventurous skiers who want to explore beyond the marked slopes. Skiers must take precautions when skiing off-piste as the terrain may be unpredictable and potentially hazardous. Overall, Bjelasnica offers a great range of slopes for skiers of different levels, and the beautiful views of the surrounding countryside make it a popular destination for winter sports enthusiasts. The slopes are well-maintained, and the ski resort offers a range of amenities and services, including ski rentals, lessons, and accommodations.",
+      "Bjelasnica es una montaña ubicada cerca de Sarajevo, Bosnia y Herzegovina, y también es una popular estación de esquí con una variedad de pistas para esquiadores de diferentes niveles. Aquí hay una descripción de las pistas de esquí en Bjelasnica: Pistas para principiantes: Bjelasnica ofrece varias pistas fáciles y suaves para que los principiantes aprendan y practiquen el esquí. Estos taludes están ubicados cerca del área base y son de fácil acceso. Son perfectos para que los principiantes aprendan los conceptos básicos y desarrollen su confianza. Pistas intermedias: Bjelasnica tiene varias pistas intermedias que son ideales para esquiadores que tienen algo de experiencia pero que aún no están preparados para pistas avanzadas. Estas pistas tienen pendientes más pronunciadas y un terreno más desafiante que las pistas para principiantes, y son excelentes para mejorar las habilidades de esquí. Pistas avanzadas: Bjelasnica tiene muchas pistas desafiantes que son perfectas para esquiadores experimentados. Estas pistas tienen pendientes pronunciadas, montículos y, a menudo, no están preparadas, lo que proporciona una verdadera prueba para los esquiadores avanzados. Están ubicados en elevaciones más altas y ofrecen excelentes vistas de los alrededores. Terreno fuera de pista: Bjelasnica también ofrece terreno fuera de pista para los esquiadores aventureros que quieren explorar más allá de las pistas marcadas. Los esquiadores deben tomar precauciones al esquiar fuera de pista, ya que el terreno puede ser impredecible y potencialmente peligroso. En general, Bjelasnica ofrece una gran variedad de pistas para esquiadores de diferentes niveles, y las hermosas vistas de la campiña circundante la convierten en un destino popular para los entusiastas de los deportes de invierno. Las pistas están bien mantenidas y la estación de esquí ofrece una variedad de comodidades y servicios, que incluyen alquiler de esquís, lecciones y alojamiento.",
     price: "25",
     category: "esqui",
     location: "bjelasnica",
@@ -74,16 +78,17 @@ export default [
   },
   {
     id: "5",
-    title: "Accomodation guide for Bjelasnica",
-    subtitle: "Full GPS guide, all inclusive",
+    title: "Guía de alojamiento para Bjelasnica",
+    subtitle: "Guía GPS completa, todo incluido",
     hero: {
       heroTitle: "Bjelasnica",
-      heroText: "Choose what you like: hotel, bungalow, or mountain hut",
+      heroText:
+        "Elige lo que más te guste: hotel, bungalow o refugio de montaña",
     },
     summary:
-      "Bjelasnica offers a variety of accommodation options to suit every budget and preference. Visitors can choose from hotels, private apartments, and guesthouses, depending on their needs and preferences",
+      "Bjelasnica ofrece una variedad de opciones de alojamiento para todos los presupuestos y preferencias. Los visitantes pueden elegir entre hoteles, apartamentos privados y casas de huéspedes, según sus necesidades y preferencias",
     description:
-      "Bjelasnica ski resort offers a variety of accommodation options for visitors, ranging from hotels to private apartments. Here's a description of the accommodation options in Bjelasnica: Hotels: Bjelasnica has several hotels located in or near the base area of the resort. These hotels offer a range of amenities, including restaurants, bars, spas, and fitness centers. Some of the hotels in Bjelasnica also offer ski-in/ski-out access, meaning that skiers can access the slopes directly from the hotel. Private apartments: Bjelasnica also has several private apartments available for rent. These apartments range in size from small studios to large apartments that can accommodate several people. Private apartments are a good option for visitors who want more space and privacy than a hotel room can provide. Guesthouses: For visitors who want a more authentic experience, Bjelasnica has several guesthouses located in nearby villages. These guesthouses offer traditional Bosnian hospitality and often serve homemade meals. They are a good option for visitors who want to experience the local culture and cuisine. Overall, Bjelasnica offers a variety of accommodation options to suit every budget and preference. Visitors can choose from hotels, private apartments, and guesthouses, depending on their needs and preferences.",
+      "La estación de esquí de Bjelasnica ofrece una variedad de opciones de alojamiento para los visitantes, que van desde hoteles hasta apartamentos privados. Aquí hay una descripción de las opciones de alojamiento en Bjelasnica: Hoteles: Bjelasnica tiene varios hoteles ubicados en o cerca del área base del resort. Estos hoteles ofrecen una variedad de servicios, incluidos restaurantes, bares, spas y gimnasios. Algunos de los hoteles en Bjelasnica también ofrecen acceso ski-in/ski-out, lo que significa que los esquiadores pueden acceder a las pistas directamente desde el hotel. Apartamentos privados: Bjelasnica también tiene varios apartamentos privados disponibles para alquilar. Estos apartamentos varían en tamaño desde pequeños estudios hasta grandes apartamentos con capacidad para varias personas. Los apartamentos privados son una buena opción para los visitantes que desean más espacio y privacidad de los que puede ofrecer una habitación de hotel. Casas de huéspedes: para los visitantes que desean una experiencia más auténtica, Bjelasnica tiene varias casas de huéspedes ubicadas en los pueblos cercanos. Estas casas de huéspedes ofrecen la hospitalidad bosnia tradicional y, a menudo, sirven comidas caseras. Son una buena opción para los visitantes que quieren experimentar la cultura y la gastronomía local. En general, Bjelasnica ofrece una variedad de opciones de alojamiento para todos los presupuestos y preferencias. Los visitantes pueden elegir entre hoteles, apartamentos privados y casas de huéspedes, según sus necesidades y preferencias.",
     price: "25",
     category: "esqui",
     location: "bjelasnica",
@@ -92,16 +97,18 @@ export default [
   },
   {
     id: "6",
-    title: "20% discount offer",
-    subtitle: "Get both Bjelasnica guides, the slopes and the acomodation",
+    title: "Oferta del 20% de descuento",
+    subtitle:
+      "Consigue las dos guías de Bjelasnica, las pistas y el alojamiento.",
     hero: {
-      heroTitle: "20% OFF",
-      heroText: "Special offer, both Bjelasnica guides in one convenient pack",
+      heroTitle: "20% DE DESCUENTO",
+      heroText:
+        "Oferta especial, ambas guías Bjelasnica en un paquete conveniente",
     },
     summary:
-      "Bjelasnica is a popular ski resort located in Bosnia and Herzegovina, about 30 km from the capital city of Sarajevo. The resort is known for its excellent skiing conditions and scenic views of the surrounding mountains.",
+      "Bjelasnica es una popular estación de esquí ubicada en Bosnia y Herzegovina, a unos 30 km de la ciudad capital de Sarajevo. El complejo es conocido por sus excelentes condiciones para esquiar y sus vistas panorámicas de las montañas circundantes.",
     description:
-      "Bjelasnica is a popular ski resort located in Bosnia and Herzegovina, about 30 km from the capital city of Sarajevo. The resort is known for its excellent skiing conditions and scenic views of the surrounding mountains. Here's a summary of what skiing in Bjelasnica is like: Slopes: Bjelasnica has over 20 km of ski runs, including 10 km of beginner runs, 6 km of intermediate runs, and 4 km of advanced runs. The longest run is about 3.5 km. The slopes are well-groomed and maintained, and there's a good mix of terrain for skiers of all levels. Lifts: The resort has 3 chairlifts and 5 ski-lifts, which can transport up to 7,000 skiers per hour. The lifts are modern and efficient, and there's usually not much of a wait time to get on. Snow: Bjelasnica typically gets an average of 120 cm of snow each winter season, and the resort also has snow-making capabilities to ensure good skiing conditions throughout the season. Ski School: There's a ski school on-site that offers lessons for skiers of all levels, from beginners to advanced. The instructors are certified and experienced, and they speak a variety of languages. Other Activities: In addition to skiing, Bjelasnica offers other winter activities such as snowboarding, cross-country skiing, snowshoeing, and sledding. The resort also has several restaurants and cafes where skiers can relax and refuel.Overall, Bjelasnica is a great destination for skiing in Bosnia and Herzegovina. Its well-maintained slopes, modern lifts, and stunning views make it a popular choice for skiers of all levels.",
+      "Bjelasnica es una popular estación de esquí ubicada en Bosnia y Herzegovina, a unos 30 km de la ciudad capital de Sarajevo. El complejo es conocido por sus excelentes condiciones para esquiar y sus vistas panorámicas de las montañas circundantes. He aquí un resumen de cómo es esquiar en Bjelasnica: Pistas: Bjelasnica tiene más de 20 km de pistas de esquí, incluidos 10 km de pistas para principiantes, 6 km de pistas intermedias y 4 km de pistas avanzadas. El recorrido más largo es de unos 3,5 km. Las pistas están bien cuidadas y mantenidas, y hay una buena combinación de terreno para esquiadores de todos los niveles. Remontes: La estación dispone de 3 telesillas y 5 remontes, que pueden transportar hasta 7.000 esquiadores por hora. Los ascensores son modernos y eficientes, y por lo general no hay mucho tiempo de espera para subir. Nieve: Bjelasnica normalmente recibe un promedio de 120 cm de nieve cada temporada de invierno, y el complejo también tiene capacidad para fabricar nieve para garantizar buenas condiciones de esquí durante toda la temporada. Escuela de esquí: hay una escuela de esquí en el lugar que ofrece lecciones para esquiadores de todos los niveles, desde principiantes hasta avanzados. Los instructores están certificados y tienen experiencia, y hablan una variedad de idiomas. Otras actividades: además del esquí, Bjelasnica ofrece otras actividades de invierno como snowboard, esquí de fondo, raquetas de nieve y trineos. El complejo también cuenta con varios restaurantes y cafés donde los esquiadores pueden relajarse y recargar energías. En general, Bjelasnica es un gran destino para esquiar en Bosnia y Herzegovina. Sus pistas bien mantenidas, sus modernos remontes y sus impresionantes vistas lo convierten en una opción popular para los esquiadores de todos los niveles.",
     price: "40",
     category: "esqui",
     location: "bjelasnica",
@@ -110,16 +117,16 @@ export default [
   },
   {
     id: "10",
-    title: "MTB on Jahorina",
-    subtitle: "Single day GPS guides, 120km of paths",
+    title: "MTB en Jahorina",
+    subtitle: "Guías GPS de un día, 120 km de senderos",
     hero: {
       heroTitle: "Jahorina",
-      heroText: "Single day adventures in and around Jahorina",
+      heroText: "Aventuras de un día en Jahorina y sus alrededores",
     },
     summary:
-      "The mountain offers a range of trails suitable for different levels of experience and skills, from easy and relaxing rides to more challenging and technical routes.",
+      "La montaña ofrece una variedad de senderos adecuados para diferentes niveles de experiencia y habilidades, desde paseos fáciles y relajantes hasta rutas más desafiantes y técnicas.",
     description:
-      "Jahorina mountain, located in Bosnia and Herzegovina, is a popular destination for mountain biking enthusiasts. The mountain offers a range of trails suitable for different levels of experience and skills, from easy and relaxing rides to more challenging and technical routes. Some of the popular trails on Jahorina mountain include the XC trail, which offers a scenic ride through forests and meadows, and the DH trail, which is more challenging and includes jumps, drops, and steep descents. The bike park on the mountain offers a variety of features, including a pump track, wooden bridges, and jumps. The scenery on Jahorina mountain is also breathtaking, with stunning views of the surrounding mountains and valleys. The mountain is also home to a variety of flora and fauna, including wildflowers, birds, and small mammals. Overall, mountain biking on Jahorina mountain is a great way to experience the beauty of the region while also enjoying an adrenaline-pumping outdoor activity.",
+      "La montaña Jahorina, ubicada en Bosnia y Herzegovina, es un destino popular para los entusiastas del ciclismo de montaña. La montaña ofrece una variedad de senderos adecuados para diferentes niveles de experiencia y habilidades, desde paseos fáciles y relajantes hasta rutas más desafiantes y técnicas. Algunos de los senderos populares en la montaña Jahorina incluyen el sendero XC, que ofrece un paseo panorámico a través de bosques y praderas, y el sendero DH, que es más desafiante e incluye saltos, caídas y descensos pronunciados. El parque de bicicletas en la montaña ofrece una variedad de características, que incluyen una pista de bombeo, puentes de madera y saltos. El paisaje de la montaña Jahorina también es impresionante, con impresionantes vistas de las montañas y los valles circundantes. La montaña también alberga una variedad de flora y fauna, incluidas flores silvestres, aves y pequeños mamíferos. En general, el ciclismo de montaña en la montaña Jahorina es una excelente manera de experimentar la belleza de la región mientras disfruta de una actividad al aire libre llena de adrenalina.",
     price: "25",
     category: "bike",
     location: "single",
@@ -128,16 +135,16 @@ export default [
   },
   {
     id: "11",
-    title: "MTB on Bjelasnica",
-    subtitle: "Single day GPS guides, 360km of paths",
+    title: "MTB en Bjelasnica",
+    subtitle: "Guías GPS de un día, 360 km de senderos",
     hero: {
       heroTitle: "Bjelasnica",
-      heroText: "Single day adventures in and around Bjelasnica",
+      heroText: "Aventuras de un día en Bjelasnica y sus alrededores",
     },
     summary:
-      "The mountain offers a range of trails suitable for different levels of experience and skills, from easy and relaxing rides to more challenging and technical routes.",
+      "La montaña ofrece una variedad de senderos adecuados para diferentes niveles de experiencia y habilidades, desde paseos fáciles y relajantes hasta rutas más desafiantes y técnicas.",
     description:
-      "Bjelasnica mountain, located in Bosnia and Herzegovina, is a popular destination for mountain biking enthusiasts. The mountain offers a range of trails suitable for different levels of experience and skills, from easy and relaxing rides to more challenging and technical routes. Some of the popular trails on Bjelasnica mountain include the XC trail, which offers a scenic ride through forests and meadows, and the DH trail, which is more challenging and includes jumps, drops, and steep descents. The bike park on the mountain offers a variety of features, including a pump track, wooden bridges, and jumps. The scenery on Bjelasnica mountain is also breathtaking, with stunning views of the surrounding mountains and valleys. The mountain is also home to a variety of flora and fauna, including wildflowers, birds, and small mammals. Overall, mountain biking on Bjelasnica mountain is a great way to experience the beauty of the region while also enjoying an adrenaline-pumping outdoor activity.",
+      "La montaña Bjelasnica, ubicada en Bosnia y Herzegovina, es un destino popular para los entusiastas del ciclismo de montaña. La montaña ofrece una variedad de senderos adecuados para diferentes niveles de experiencia y habilidades, desde paseos fáciles y relajantes hasta rutas más desafiantes y técnicas. Algunos de los senderos populares en la montaña Bjelasnica incluyen el sendero XC, que ofrece un paseo panorámico a través de bosques y praderas, y el sendero DH, que es más desafiante e incluye saltos, caídas y descensos pronunciados. El parque de bicicletas en la montaña ofrece una variedad de características, que incluyen una pista de bombeo, puentes de madera y saltos. El paisaje de la montaña Bjelasnica también es impresionante, con impresionantes vistas de las montañas y los valles circundantes. La montaña también alberga una variedad de flora y fauna, incluidas flores silvestres, aves y pequeños mamíferos. En general, el ciclismo de montaña en la montaña Bjelasnica es una excelente manera de experimentar la belleza de la región mientras disfruta de una actividad al aire libre llena de adrenalina.",
     price: "25",
     category: "bike",
     location: "single",
@@ -146,16 +153,16 @@ export default [
   },
   {
     id: "12",
-    title: "MTB in Bosnia",
-    subtitle: "Multi day GPS guides, Sarajevo to Neretva river",
+    title: "MTB en Bosnia",
+    subtitle: "Guías GPS de varios días, Sarajevo al río Neretva",
     hero: {
       heroTitle: "Bosnia",
-      heroText: "Multi day adventure from Sarajevo",
+      heroText: "Aventura de varios días desde Sarajevo",
     },
     summary:
-      "The mountain offers a range of trails suitable for different levels of experience and skills, from easy and relaxing rides to more challenging and technical routes.",
+      "La montaña ofrece una variedad de senderos adecuados para diferentes niveles de experiencia y habilidades, desde paseos fáciles y relajantes hasta rutas más desafiantes y técnicas.",
     description:
-      "Bjelasnica mountain, located in Bosnia and Herzegovina, is a popular destination for mountain biking enthusiasts. The mountain offers a range of trails suitable for different levels of experience and skills, from easy and relaxing rides to more challenging and technical routes. Some of the popular trails on Bjelasnica mountain include the XC trail, which offers a scenic ride through forests and meadows, and the DH trail, which is more challenging and includes jumps, drops, and steep descents. The bike park on the mountain offers a variety of features, including a pump track, wooden bridges, and jumps. The scenery on Bjelasnica mountain is also breathtaking, with stunning views of the surrounding mountains and valleys. The mountain is also home to a variety of flora and fauna, including wildflowers, birds, and small mammals. Overall, mountain biking on Bjelasnica mountain is a great way to experience the beauty of the region while also enjoying an adrenaline-pumping outdoor activity.",
+      "La montaña Bjelasnica, ubicada en Bosnia y Herzegovina, es un destino popular para los entusiastas del ciclismo de montaña. La montaña ofrece una variedad de senderos adecuados para diferentes niveles de experiencia y habilidades, desde paseos fáciles y relajantes hasta rutas más desafiantes y técnicas. Algunos de los senderos populares en la montaña Bjelasnica incluyen el sendero XC, que ofrece un paseo panorámico a través de bosques y praderas, y el sendero DH, que es más desafiante e incluye saltos, caídas y descensos pronunciados. El parque de bicicletas en la montaña ofrece una variedad de características, que incluyen una pista de bombeo, puentes de madera y saltos. El paisaje de la montaña Bjelasnica también es impresionante, con impresionantes vistas de las montañas y los valles circundantes. La montaña también alberga una variedad de flora y fauna, incluidas flores silvestres, aves y pequeños mamíferos. En general, el ciclismo de montaña en la montaña Bjelasnica es una excelente manera de experimentar la belleza de la región mientras disfruta de una actividad al aire libre llena de adrenalina.",
     price: "40",
     category: "bike",
     location: "multi",
@@ -164,16 +171,16 @@ export default [
   },
   {
     id: "20",
-    title: "Eastern route cuisine in Sarajevo",
-    subtitle: "Rich culinary tradition that reflects its Ottoman heritage",
+    title: "Cocina de ruta oriental en Sarajevo",
+    subtitle: "Rica tradición culinaria que refleja su herencia otomana",
     hero: {
       heroTitle: "Sarajevo",
-      heroText: "Best food in best restaurants. GPS guide.",
+      heroText: "La mejor comida en los mejores restaurantes. guia gps.",
     },
     summary:
-      "The city's culinary scene is diverse and offers something for everyone, whether you're looking for meat dishes, vegetarian options, or sweet treats.",
+      "La escena culinaria de la ciudad es diversa y ofrece algo para todos, ya sea que busque platos de carne, opciones vegetarianas o dulces.",
     description:
-      "Sarajevo, the capital city of Bosnia and Herzegovina, has a rich culinary tradition that reflects its Ottoman and Austro-Hungarian heritage. Some of the traditional dishes that you can find in Sarajevo include: Cevapi: These are small sausages made from minced beef or lamb, typically served with pita bread and onions. Burek: A savory pastry made with phyllo dough and stuffed with meat, cheese, or spinach. Dolma: Stuffed vegetables such as peppers or grape leaves filled with a mixture of rice, herbs, and sometimes meat. Bosanski lonac: A hearty meat and vegetable stew typically made with lamb, potatoes, carrots, and onions. Klepe: Similar to Italian ravioli, klepe are small dumplings filled with meat or cheese and served in a broth. Sarajevski sahan: A dish consisting of baked meatballs, potatoes, and onions in a tomato sauce. These are just a few examples of the many delicious traditional dishes that you can try in Sarajevo. The city's culinary scene is diverse and offers something for everyone, whether you're looking for meat dishes, vegetarian options, or sweet treats.",
+      "Sarajevo, la capital de Bosnia y Herzegovina, tiene una rica tradición culinaria que refleja su herencia otomana y austrohúngara. Algunos de los platos tradicionales que puedes encontrar en Sarajevo incluyen: Cevapi: Estos son pequeños embutidos hechos de carne picada de res o cordero, típicamente servidos con pan de pita y cebollas. Burek: Un pastel salado elaborado con masa filo y relleno de carne, queso o espinacas. Dolma: verduras rellenas como pimientos u hojas de parra rellenas con una mezcla de arroz, hierbas y, a veces, carne. Bosanski lonac: un estofado abundante de carne y verduras que se suele preparar con cordero, patatas, zanahorias y cebollas. Klepe: similar a los ravioles italianos, los klepe son pequeñas albóndigas rellenas de carne o queso y se sirven en un caldo. Sarajevski sahan: Un plato que consiste en albóndigas al horno, papas y cebollas en salsa de tomate. Estos son solo algunos ejemplos de los deliciosos platos tradicionales que puedes probar en Sarajevo. La escena culinaria de la ciudad es diversa y ofrece algo para todos, ya sea que busque platos de carne, opciones vegetarianas o dulces.",
     price: "25",
     category: "walk",
     location: "food",
@@ -183,15 +190,15 @@ export default [
   {
     id: "21",
     title: "Western route cuisine in Sarajevo",
-    subtitle: "Rich culinary tradition that reflects its European heritage",
+    subtitle: "Cocina de ruta occidental en Sarajevo",
     hero: {
       heroTitle: "Sarajevo",
-      heroText: "Best food in best restaurants. GPS guide.",
+      heroText: "La mejor comida en los mejores restaurantes. guia gps.",
     },
     summary:
-      "The city's culinary scene is diverse and offers something for everyone, whether you're looking for meat dishes, vegetarian options, or sweet treats.",
+      "La escena culinaria de la ciudad es diversa y ofrece algo para todos, ya sea que busque platos de carne, opciones vegetarianas o dulces.",
     description:
-      "Sarajevo, the capital city of Bosnia and Herzegovina, has a rich culinary tradition that reflects its Ottoman and Austro-Hungarian heritage. Some of the traditional dishes that you can find in Sarajevo include: Cevapi: These are small sausages made from minced beef or lamb, typically served with pita bread and onions. Burek: A savory pastry made with phyllo dough and stuffed with meat, cheese, or spinach. Dolma: Stuffed vegetables such as peppers or grape leaves filled with a mixture of rice, herbs, and sometimes meat. Bosanski lonac: A hearty meat and vegetable stew typically made with lamb, potatoes, carrots, and onions. Klepe: Similar to Italian ravioli, klepe are small dumplings filled with meat or cheese and served in a broth. Sarajevski sahan: A dish consisting of baked meatballs, potatoes, and onions in a tomato sauce. These are just a few examples of the many delicious traditional dishes that you can try in Sarajevo. The city's culinary scene is diverse and offers something for everyone, whether you're looking for meat dishes, vegetarian options, or sweet treats.",
+      "Sarajevo, la capital de Bosnia y Herzegovina, tiene una rica tradición culinaria que refleja su herencia otomana y austrohúngara. Algunos de los platos tradicionales que puedes encontrar en Sarajevo incluyen: Cevapi: Estos son pequeños embutidos hechos de carne picada de res o cordero, típicamente servidos con pan de pita y cebollas. Burek: Un pastel salado elaborado con masa filo y relleno de carne, queso o espinacas. Dolma: verduras rellenas como pimientos u hojas de parra rellenas con una mezcla de arroz, hierbas y, a veces, carne. Bosanski lonac: un estofado abundante de carne y verduras que se suele preparar con cordero, patatas, zanahorias y cebollas. Klepe: similar a los ravioles italianos, los klepe son pequeñas albóndigas rellenas de carne o queso y se sirven en un caldo. Sarajevski sahan: Un plato que consiste en albóndigas al horno, papas y cebollas en salsa de tomate. Estos son solo algunos ejemplos de los deliciosos platos tradicionales que puedes probar en Sarajevo. La escena culinaria de la ciudad es diversa y ofrece algo para todos, ya sea que busque platos de carne, opciones vegetarianas o dulces.",
     price: "25",
     category: "walk",
     location: "food",
@@ -200,17 +207,17 @@ export default [
   },
   {
     id: "22",
-    title: "Sweet treats in Sarajevo",
+    title: "Postres en Sarajevo",
     subtitle:
-      "Rich culinary tradition that reflects its Ottoman and Austro-Hungarian heritage",
+      "Rica tradición culinaria que refleja su herencia otomana y austrohúngara",
     hero: {
       heroTitle: "Sarajevo",
-      heroText: "Best sweet treats in best places. GPS guide.",
+      heroText: "Los mejores dulces en los mejores lugares. guia gps.",
     },
     summary:
-      "Sarajevo's sweet culinary scene is diverse and flavorful, with many unique and delicious desserts to try.",
+      "La dulce escena culinaria de Sarajevo es diversa y sabrosa, con muchos postres únicos y deliciosos para probar.",
     description:
-      "Sarajevo, the capital city of Bosnia and Herzegovina, has a rich culinary tradition that combines various cultural influences from the region. When it comes to sweet culinary delights, Sarajevo offers a wide range of desserts and pastries that are both delicious and unique. One of the most famous sweet treats in Sarajevo is baklava, a pastry made of layers of phyllo dough filled with chopped nuts and sweet syrup. Baklava can be found in many bakeries and restaurants throughout the city and is often served with a cup of strong Bosnian coffee. Another popular dessert in Sarajevo is tufahija, which is made of poached apples stuffed with a mixture of walnuts, sugar, and cinnamon and served with whipped cream. Tufahija is a traditional Bosnian dessert that is typically enjoyed during the winter months. A similar dessert to tufahija is hurmasice, which are small, syrup-soaked cakes made with semolina flour, sugar, and walnuts. These cakes are usually flavored with rose water or vanilla and are a popular treat during Eid al-Fitr, a holiday celebrated at the end of Ramadan. Another traditional Bosnian sweet is klepe, which are small, dumpling-like pastries filled with plum jam or quince paste and served with a sprinkling of sugar. Klepe can be found in many bakeries throughout Sarajevo and are often served as a sweet breakfast or snack. Other sweet treats that can be found in Sarajevo include rahat lokum (Turkish delight), halva (a sweet made from sesame paste and sugar), and pita sa jabukama (apple pie). Overall, Sarajevo's sweet culinary scene is diverse and flavorful, with many unique and delicious desserts to try.",
+      "Sarajevo, la capital de Bosnia y Herzegovina, tiene una rica tradición culinaria que combina varias influencias culturales de la región. Cuando se trata de delicias culinarias dulces, Sarajevo ofrece una amplia gama de postres y pasteles que son deliciosos y únicos. Uno de los dulces más famosos de Sarajevo es el baklava, un pastel hecho con capas de masa filo rellenas con nueces picadas y jarabe dulce. Baklava se puede encontrar en muchas panaderías y restaurantes de la ciudad y, a menudo, se sirve con una taza de café bosnio fuerte. Otro postre popular en Sarajevo es tufahija, que está hecho de manzanas escalfadas rellenas con una mezcla de nueces, azúcar y canela y se sirve con crema batida. Tufahija es un postre bosnio tradicional que normalmente se disfruta durante los meses de invierno. Un postre similar a la tufahija es el hurmasice, que son pequeños pasteles empapados en almíbar hechos con harina de sémola, azúcar y nueces. Estos pasteles suelen tener sabor a agua de rosas o vainilla y son un regalo popular durante Eid al-Fitr, una festividad que se celebra al final del Ramadán. Otro dulce bosnio tradicional es el klepe, que son pequeños pasteles con forma de bola de masa rellenos con mermelada de ciruela o pasta de membrillo y se sirven con una pizca de azúcar. Klepe se puede encontrar en muchas panaderías en todo Sarajevo y, a menudo, se sirve como un desayuno o merienda dulce. Otros dulces que se pueden encontrar en Sarajevo incluyen rahat lokum (delicia turca), halva (un dulce hecho con pasta de sésamo y azúcar) y pita sa jabukama (tarta de manzana). En general, la escena culinaria dulce de Sarajevo es diversa y sabrosa, con muchos postres únicos y deliciosos para probar.",
     price: "25",
     category: "walk",
     location: "sweet",
