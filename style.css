@@ -335,8 +335,8 @@ p {
 .hamburguer {
   position: absolute;
   z-index: 101;
-  top: 2rem;
-  left: 2rem;
+  top: 0.9rem;
+  left: 0.8rem;
 }
 
 @media (max-width: 49.999rem) {
@@ -355,8 +355,10 @@ p {
     padding: 2rem;
     padding-top: 6rem;
     box-shadow: 5px 5px 0 hsl(var(--color-shadow-blue), 0.6);
-    /* transform: translate(-105%); */
     transition: transform 0.1s ease-out;
+  }
+  [aria-hidden="false"] {
+    transform: translate(-105%);
   }
 }
 
@@ -404,6 +406,9 @@ p {
   .nav-list > :not(:last-child) {
     border-inline-end: 3px solid white;
     padding-inline-end: 0.5rem;
+  }
+  .hamburguer {
+    visibility: hidden;
   }
 }
 
