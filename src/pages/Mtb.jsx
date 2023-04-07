@@ -31,7 +31,7 @@ export default function MtbLayout() {
 
   return (
     <>
-      <Subselect dataProps={{ ...props }} />
+      <Subselect searchType={typeFilter} dataProps={{ ...props }} />
       <div className="home-card-grid">{mapear}</div>
     </>
   );

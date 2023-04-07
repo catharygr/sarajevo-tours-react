@@ -32,7 +32,7 @@ export default function WalkLayout() {
   });
   return (
     <>
-      <Subselect dataProps={{ ...props }} />
+      <Subselect searchType={typeFilter} dataProps={{ ...props }} />
       <div className="home-card-grid">{mapear}</div>
     </>
   );
