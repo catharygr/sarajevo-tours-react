@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import data from "../data.js";
 import HeroProducts from "../componentes/HeroProducts";
@@ -18,7 +18,10 @@ export default function ProductDetails() {
     imgUrl2,
   } = findProduct;
 
-  console.log(heroTitle);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <HeroProducts title={heroTitle} price={price} text={heroText} />
