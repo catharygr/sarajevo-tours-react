@@ -25,8 +25,9 @@ export default function About() {
               card={{
                 url: "#",
                 title: "Mi portafolio",
-                summary: "hfhgf",
-                imgUrl: "./assets/images/bike-card.jpg",
+                summary:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Meget mauris pharetra et ultrices neque ornare aenean euismod.Malesuada fames ac turpis egestas sed tempus urna et.",
+                imgUrl: "./assets/images/caty-emoji.jpg",
               }}
             />
           </div>
@@ -74,7 +75,7 @@ export default function About() {
               quam id leo. Risus nullam eget felis eget nunc lobortis.
             </p>
           </div>
-          <img src="/assets/images/bike-card.jpg" alt="Bicicleta" />
+          <img src="/assets/images/caty-about.jpg" alt="Mujer esquiando" />
         </article>
 
         <Footer />

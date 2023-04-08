@@ -605,6 +605,7 @@ p {
   aspect-ratio: 12/ 9;
   box-shadow: 3px 3px 0px hsl(var(--color-shadow-pink));
   border-radius: 20px;
+  background-color: aliceblue;
 }
 
 @container (min-width: 450px) {
