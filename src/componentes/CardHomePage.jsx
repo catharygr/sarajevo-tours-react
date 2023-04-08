@@ -14,7 +14,7 @@ export default function CardHomePage({ card }) {
       <Link to={url}>
         <article className="home-card-article">
           <h3 className="ff-title color-white">{title}</h3>
-          <img src={imgUrl} alt="imagen de una chica tumbada en la nieve" />
+          <img src={imgUrl} alt="" />
           {description && <p>{description}</p>}
           {summary && <p>{summary}</p>}
         </article>

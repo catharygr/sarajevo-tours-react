@@ -16,7 +16,7 @@ export default [
     category: "esqui",
     type: "jahorina",
     imgUrl: "/assets/images/1-1.jpg",
-    imgUrl2: "/assets/images/products/1-2.jpg",
+    imgUrl2: "/assets/images/1-2.jpg",
   },
   {
     id: "2",

@@ -25,11 +25,11 @@ export default function ProductDetails() {
   return (
     <>
       <HeroProducts title={heroTitle} price={price} text={heroText} />
-      <article className="details-container">
-        <h1 className="color-white">{title}</h1>
-        <h3 className="color-white">{subtitle}</h3>
+      <article className="details-container color-white">
+        <h1>{title}</h1>
+        <h3>{subtitle}</h3>
         <img src={imgUrl} alt={heroText} />
-        <p className="color-white">{description}</p>
+        <div className="parrafo flow">{description}</div>
         <img src={imgUrl2} alt={heroText} />
       </article>
     </>

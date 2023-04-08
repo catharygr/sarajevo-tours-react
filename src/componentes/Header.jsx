@@ -26,7 +26,7 @@ export default function Header({ color }) {
                 }
                 to="/sobre"
               >
-                Sobre
+                Proyecto
               </NavLink>
             </li>
             <li>

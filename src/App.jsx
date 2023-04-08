@@ -10,6 +10,7 @@ import ProductLayout from "./pages/ProductLayout";
 import ProductDetails from "./pages/ProductDetails";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
 
         <Route path="contacto" element={<Contact />} />
         <Route path="admin" element={<Login />} />
+        <Route path="sobre" element={<About />} />
       </Routes>
     </BrowserRouter>
   );
