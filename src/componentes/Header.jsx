@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import { ReactComponent as HamburgIcon } from "..//assets//hamburger.svg";
+import { ReactComponent as HamburgIcon } from "../assets/hamburger.svg";
+import { ReactComponent as CartIcon } from "../assets/shopping-cart.svg";
 
 export default function Header({ color }) {
   const [isOpenMenu, setIsOpenMenu] = React.useState(true);
@@ -54,11 +55,7 @@ export default function Header({ color }) {
             </li>
           </ul>
         </nav>
-        <img
-          className="cart-img"
-          src="/assets/images/shopping-cart.svg"
-          alt="Carrito de compra"
-        />
+        {<CartIcon className="cart-img" />}
       </div>
       <div>
         <Link to="/">
