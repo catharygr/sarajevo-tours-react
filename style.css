@@ -105,7 +105,7 @@ meter {
   --color-green: 68, 54%, 55%;
   --color-orange: 31, 83%, 68%;
   --color-pink: 340, 40%, 72%;
-  --color-gray: 166, 17%, 71%;
+  --color-grey: 166, 17%, 71%;
   --color-blue: 223, 78%, 68%;
   --color-white: 0, 0%, 100%;
   --color-black: 245, 50%, 5%;
@@ -162,7 +162,7 @@ body,
 
 .btn-active {
   box-shadow: inset 4px 4px 0px hsl(var(--color-shadow-blue), 0.5);
-  background-color: hsl(var(--color-gray));
+  background-color: hsl(var(--color-grey));
 }
 
 .btn-green {
@@ -206,8 +206,8 @@ body,
 .color-pink {
   color: hsl(var(--color-pink));
 }
-.color-gray {
-  color: hsl(var(--color-gray));
+.color-grey {
+  color: hsl(var(--color-grey));
 }
 
 .color-blue {
