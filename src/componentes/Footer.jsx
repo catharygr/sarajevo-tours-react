@@ -5,9 +5,7 @@ import { useLocation } from "react-router-dom";
 export default function Footer() {
   const location = useLocation();
   const adminLocation = location.pathname === "/admin" ? false : true;
-  console.log(adminLocation);
 
-  console.log(location.pathname);
   return (
     <div className="footer">
       {adminLocation && (
