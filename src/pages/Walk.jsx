@@ -4,7 +4,7 @@ import Subselect from "../componentes/Subselect";
 import CardProduct from "../componentes/CardProduct";
 import data from "../data";
 
-export default function WalkLayout() {
+export default function Walk() {
   const props = {
     to1: "food",
     to2: "history",
@@ -16,7 +16,6 @@ export default function WalkLayout() {
   // eslint-disable-next-line no-unused-vars
   const [searchParams, setSearchParams] = useSearchParams();
   const typeFilter = searchParams.get("type");
-  console.log(typeFilter);
 
   const dataFilter = data.filter((product) => {
     if (!typeFilter && product.category === "walk") {

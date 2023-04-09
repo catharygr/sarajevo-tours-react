@@ -19,14 +19,14 @@ export default function HomeCards() {
     },
     {
       title: "Caminatas por alimentos y postres",
-      url: "/caminar",
+      url: "/caminar?type=food",
       imgUrl: "/assets/images/food-card.jpg",
       description:
         "¿Quiere probar Sarajevo? Obtenga nuestro recorrido y sepa qué y dónde comer. Todo reservado con antelación, desayuno, almuerzo, cena. Y dulces.",
     },
     {
       title: "Visita todos los lugares históricos importantes.",
-      url: "/caminar",
+      url: "/caminar?type=history",
       imgUrl: "/assets/images/history-card.jpg",
       description:
         "No pierdas tiempo buscando lugares importantes, obtén nuestras guías detalladas con navegación GPS...",

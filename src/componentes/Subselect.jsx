@@ -4,6 +4,11 @@ import { NavLink } from "react-router-dom";
 
 export default function Subselect({ dataProps, searchType }) {
   const { to1, to2, btn1, btn2, title } = dataProps;
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="sub-select">
       <h3 className="color-white">{title}</h3>

@@ -10,7 +10,6 @@ export default function Contact() {
     email: "",
     mensaje: "",
   });
-  console.log(formData);
 
   function handleChange(e) {
     const { name, value } = e.target;

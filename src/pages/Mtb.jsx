@@ -4,7 +4,7 @@ import Subselect from "../componentes/Subselect";
 import CardProduct from "../componentes/CardProduct";
 import data from "../data";
 
-export default function MtbLayout() {
+export default function Mtb() {
   const props = {
     to1: "single",
     to2: "multi",
@@ -15,7 +15,6 @@ export default function MtbLayout() {
   // eslint-disable-next-line no-unused-vars
   const [searchParams, setSearchParams] = useSearchParams();
   const typeFilter = searchParams.get("type");
-  console.log(typeFilter);
 
   const dataFilter = data.filter((product) => {
     if (!typeFilter && product.category === "bike") {

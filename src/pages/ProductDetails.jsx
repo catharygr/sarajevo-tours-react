@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import data from "../data.js";
 import HeroProducts from "../componentes/HeroProducts";
 
@@ -29,7 +30,9 @@ export default function ProductDetails() {
         <h1>{title}</h1>
         <h3>{subtitle}</h3>
         <img src={imgUrl} alt={heroText} />
-        <div className="parrafo flow">{description}</div>
+        <div className="parrafo flow">
+          <ReactMarkdown>{description}</ReactMarkdown>
+        </div>
         <img src={imgUrl2} alt={heroText} />
       </article>
     </>

@@ -152,6 +152,7 @@ body,
   box-shadow: 3px 3px 0px hsl(var(--color-shadow-blue), 0.5);
   transition: all 0.1s;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -341,6 +342,7 @@ p {
   z-index: 101;
   top: 0.9rem;
   left: 0.8rem;
+  cursor: pointer;
 }
 
 @media (max-width: 49.999rem) {
