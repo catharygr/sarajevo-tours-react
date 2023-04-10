@@ -1,0 +1,27 @@
+import { initializeApp } from "firebase/app";
+import { getFirestore, collection, getDocs } from "firebase/firestore/lite";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDCLNxgeeg50gXH7akpU89F6G7BZgAEqzw",
+  authDomain: "sarajevo-turismo.firebaseapp.com",
+  projectId: "sarajevo-turismo",
+  storageBucket: "sarajevo-turismo.appspot.com",
+  messagingSenderId: "737620949098",
+  appId: "1:737620949098:web:cae494a6829c3a22eb3213",
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+const productRef = collection(db, "productos");
+
+export async function getProducts() {
+  const querySnapshot = await getDocs(productRef);
+  const dataArr = querySnapshot.docs.map((doc) => ({
+    ...doc.data(),
+    id: doc.id,
+  }));
+  // console.log(dataArr);
+  return dataArr;
+}

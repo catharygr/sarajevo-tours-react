@@ -1,8 +1,8 @@
-import React from "react";
-import Subselect from "../componentes/Subselect";
+import React, { useContext } from "react";
+import SubSelect from "../componentes/SubSelect";
 import CardProduct from "../componentes/CardProduct";
-import data from "../data";
 import { useSearchParams } from "react-router-dom";
+import { ProductContext } from "../api/DataContext";
 
 export default function Ski() {
   const props = {
@@ -12,6 +12,9 @@ export default function Ski() {
     btn2: "Bjelasnica",
     title: "Elige tu montaña",
   };
+
+  const data = useContext(ProductContext);
+  console.log(data);
 
   // eslint-disable-next-line no-unused-vars
   const [searchParams, setSearchParams] = useSearchParams();
@@ -31,7 +34,7 @@ export default function Ski() {
   });
   return (
     <>
-      <Subselect searchType={typeFilter} dataProps={{ ...props }} />
+      <SubSelect searchType={typeFilter} dataProps={{ ...props }} />
       <div className="home-card-grid">{mapear}</div>
     </>
   );

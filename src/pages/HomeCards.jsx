@@ -1,9 +1,7 @@
 import React from "react";
 import CardHomePage from "../componentes/CardHomePage";
-import { getProducts, skiQuery } from "../firebase";
 
 export default function HomeCards() {
-  getProducts(skiQuery);
   const dataCards = [
     {
       title: "Esquí alpino y snowboard",

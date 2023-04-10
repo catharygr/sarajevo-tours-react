@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useSearchParams } from "react-router-dom";
-import Subselect from "../componentes/Subselect";
+import SubSelect from "../componentes/SubSelect";
 import CardProduct from "../componentes/CardProduct";
-import data from "../data";
+import { ProductContext } from "../api/DataContext";
 
 export default function Walk() {
   const props = {
@@ -12,6 +12,9 @@ export default function Walk() {
     btn2: "Caminatas de historia",
     title: "Elige tu curiosidad",
   };
+
+  const data = useContext(ProductContext);
+  console.log(data);
 
   // eslint-disable-next-line no-unused-vars
   const [searchParams, setSearchParams] = useSearchParams();
@@ -31,7 +34,7 @@ export default function Walk() {
   });
   return (
     <>
-      <Subselect searchType={typeFilter} dataProps={{ ...props }} />
+      <SubSelect searchType={typeFilter} dataProps={{ ...props }} />
       <div className="home-card-grid">{mapear}</div>
     </>
   );

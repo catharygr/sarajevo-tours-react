@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useSearchParams } from "react-router-dom";
-import Subselect from "../componentes/Subselect";
+import SubSelect from "../componentes/SubSelect";
 import CardProduct from "../componentes/CardProduct";
-import data from "../data";
+import { ProductContext } from "../api/DataContext";
 
 export default function Mtb() {
   const props = {
@@ -12,6 +12,10 @@ export default function Mtb() {
     btn2: "Varios días",
     title: "Elige la longitud",
   };
+
+  const data = useContext(ProductContext);
+  console.log(data);
+
   // eslint-disable-next-line no-unused-vars
   const [searchParams, setSearchParams] = useSearchParams();
   const typeFilter = searchParams.get("type");
@@ -30,7 +34,7 @@ export default function Mtb() {
 
   return (
     <>
-      <Subselect searchType={typeFilter} dataProps={{ ...props }} />
+      <SubSelect searchType={typeFilter} dataProps={{ ...props }} />
       <div className="home-card-grid">{mapear}</div>
     </>
   );
