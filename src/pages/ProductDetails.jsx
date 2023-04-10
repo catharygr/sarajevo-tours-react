@@ -12,17 +12,17 @@ export default function ProductDetails() {
     (product) => product.id.toString() === params.id
   );
 
-  const {
-    title,
-    subtitle,
-    hero: { heroTitle, heroText },
-    imgUrl,
-    price,
-    description,
-    imgUrl2,
-  } = findProduct;
+  // const {
+  //   title,
+  //   subtitle,
+  //   hero: { heroTitle, heroText },
+  //   imgUrl,
+  //   price,
+  //   description,
+  //   imgUrl2,
+  // } = findProduct;
 
-  const descriptionMD = description.replace(/\\n\\n/g, "\n\n");
+  const descriptionMD = findProduct?.description.replace(/\\n\\n/g, "\n\n");
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -30,15 +30,19 @@ export default function ProductDetails() {
 
   return (
     <>
-      <HeroProducts title={heroTitle} price={price} text={heroText} />
+      <HeroProducts
+        title={findProduct?.hero.heroTitle}
+        price={findProduct?.price}
+        text={findProduct?.hero.heroText}
+      />
       <article className="details-container color-white">
-        <h1>{title}</h1>
-        <h3>{subtitle}</h3>
-        <img src={imgUrl} alt={heroText} />
+        <h1>{findProduct?.title}</h1>
+        <h3>{findProduct?.subtitle}</h3>
+        <img src={findProduct?.imgUrl} alt={findProduct?.hero.heroText} />
         <div className="parrafo flow">
           <ReactMarkdown>{descriptionMD}</ReactMarkdown>
         </div>
-        <img src={imgUrl2} alt={heroText} />
+        <img src={findProduct?.imgUrl2} alt={findProduct?.hero.heroText} />
       </article>
     </>
   );
