@@ -6,7 +6,6 @@ import { ProductContext } from "../api/DataContext";
 
 export default function ProductDetails() {
   const data = useContext(ProductContext);
-  console.log(data);
 
   const params = useParams();
   const findProduct = data.find(

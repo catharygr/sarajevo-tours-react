@@ -14,7 +14,6 @@ export default function Walk() {
   };
 
   const data = useContext(ProductContext);
-  console.log(data);
 
   // eslint-disable-next-line no-unused-vars
   const [searchParams, setSearchParams] = useSearchParams();
