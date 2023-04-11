@@ -2,7 +2,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-export default function SubSelect({ dataProps, searchType }) {
+export default function SubSelector({ dataProps, searchType }) {
   const { to1, to2, btn1, btn2, title } = dataProps;
 
   React.useEffect(() => {

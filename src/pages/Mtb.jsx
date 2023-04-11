@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { useSearchParams } from "react-router-dom";
-import SubSelect from "../componentes/SubSelect";
+import SubSelector from "../componentes/SubSelector";
 import CardProduct from "../componentes/CardProduct";
 import { ProductContext } from "../api/DataContext";
 
@@ -33,7 +33,7 @@ export default function Mtb() {
 
   return (
     <>
-      <SubSelect searchType={typeFilter} dataProps={{ ...props }} />
+      <SubSelector searchType={typeFilter} dataProps={{ ...props }} />
       <div className="home-card-grid">{mapear}</div>
     </>
   );
