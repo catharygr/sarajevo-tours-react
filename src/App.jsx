@@ -11,6 +11,8 @@ import ProductDetails from "./pages/ProductDetails";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import About from "./pages/About";
+import AdminLayout from "./pages/admin/AdminLayout";
+import AuthRequired from "./pages/admin/AuthRequired";
 
 function App() {
   return (
@@ -28,7 +30,12 @@ function App() {
         </Route>
 
         <Route path="contacto" element={<Contact />} />
-        <Route path="admin" element={<Login />} />
+
+        <Route element={<AuthRequired />}>
+          <Route path="admin" element={<AdminLayout />} />
+        </Route>
+        <Route path="login" element={<Login />} />
+
         <Route path="sobre" element={<About />} />
       </Routes>
     </BrowserRouter>
