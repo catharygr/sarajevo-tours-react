@@ -692,7 +692,7 @@ p {
 }
 
 /* ************************************ */
-/* ProductDetailsComponentes*/
+/* ProductDetails Componentes*/
 /* ************************************ */
 
 .details-container {
@@ -729,6 +729,10 @@ p {
 
 .details-container > img:last-of-type {
   transform: rotate(3deg);
+}
+
+.back-link {
+  font-weight: 600;
 }
 
 @media (min-width: 42rem) and (max-width: 49.999rem) {
