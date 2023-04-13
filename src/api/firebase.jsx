@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs } from "firebase/firestore/lite";
+import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDCLNxgeeg50gXH7akpU89F6G7BZgAEqzw",
@@ -12,8 +13,9 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
 
+// Data base configuracion
+const db = getFirestore(app);
 const productRef = collection(db, "productos");
 
 export async function getProducts() {
@@ -28,3 +30,6 @@ export async function getProducts() {
     console.log(err);
   }
 }
+
+// Auth. configuracion
+export const auth = getAuth(app);
