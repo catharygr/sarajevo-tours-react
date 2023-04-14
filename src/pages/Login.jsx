@@ -8,6 +8,7 @@ import Button from "../componentes/Button";
 
 export default function Login() {
   const navigate = useNavigate();
+  const [problemMessage, setProblemMessage] = React.useState("");
   const [formData, setFormData] = React.useState({
     email: "",
     password: "",
@@ -24,17 +25,11 @@ export default function Login() {
   function handleOnSubmit(e) {
     e.preventDefault();
     signInWithEmailAndPassword(auth, formData.email, formData.password)
-      .then((response) => {
-        sessionStorage.setItem(
-          "Auth-Token",
-          response._tokenResponse.refreshToken
-        );
-        navigate("/admin");
-      })
+      .then(() => navigate("/admin"))
       .catch((error) => {
-        const errorCode = error.code;
         const errorMessage = error.message;
-        console.log(errorCode, errorMessage);
+        console.log(errorMessage);
+        setProblemMessage("Nombre de usario o contraseña incorrecta.");
       });
     setFormData({
       email: "",
@@ -55,6 +50,7 @@ export default function Login() {
             <h1 className="fs-700 ff-title color-white text-shadow-pink ">
               Admin acceso
             </h1>
+            {problemMessage && <p>{problemMessage}</p>}
             <div className="name-email">
               <div className="label-container">
                 <label htmlFor="email">Nombre de usuario</label>

@@ -1,13 +1,27 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
-import { Outlet, Navigate } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Outlet, useNavigate } from "react-router-dom";
+import { auth } from "../../api/firebase";
+import { onAuthStateChanged } from "firebase/auth";
 
 export default function AuthRequired() {
-  const isToken = sessionStorage.getItem("Auth-Token");
-  const [isLoggedIn, setIsLoggedIn] = React.useState(isToken);
+  const navigate = useNavigate();
 
-  if (!isLoggedIn) {
-    return <Navigate to="/login" />;
+  const [isLogged, setIsLogged] = useState(false);
+
+  useEffect(() => {
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        setIsLogged(true);
+      } else {
+        setIsLogged(false);
+        navigate("/login");
+      }
+    });
+  });
+
+  if (!isLogged) {
+    return <h1>Login...</h1>;
   }
   return <Outlet />;
 }
