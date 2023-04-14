@@ -1013,7 +1013,36 @@ h1 {
 }
 
 /* ************************************ */
-/* Footer Componentes*/
+/* Admin sección                        */
+/* ************************************ */
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 3rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.underline-admin {
+  border-bottom: 1px solid hsl(var(--color-white));
+  align-self: center;
+}
+
+.admin-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem;
+}
+
+.admin-nav > :not(:last-child) {
+  border-right: 2px solid hsl(var(--color-white));
+  padding-right: 0.5rem;
+}
+
+/* ************************************ */
+/* Footer Componentes                   */
 /* ************************************ */
 
 .footer {
