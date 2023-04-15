@@ -1019,7 +1019,7 @@ h1 {
 .admin-header {
   display: flex;
   justify-content: space-between;
-  margin: 2rem 3rem;
+  margin: 1rem;
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -1039,6 +1039,82 @@ h1 {
 .admin-nav > :not(:last-child) {
   border-right: 2px solid hsl(var(--color-white));
   padding-right: 0.5rem;
+}
+
+/* Dashborad */
+
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.dashboard-card {
+  background-color: hsl(var(--color-grey));
+  border-radius: 15px;
+  text-align: center;
+  padding: 2rem;
+  flex: 1 1 300px;
+  font-weight: 500;
+}
+
+@media (min-width: 50rem) {
+  .dashboard-container {
+    gap: 3rem;
+    margin: 3rem;
+  }
+}
+
+/* Income */
+
+.income-container {
+  text-align: center;
+  margin: 1rem;
+}
+
+.income-container > img {
+  border-radius: 15px;
+}
+
+/* Products */
+
+.products-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(var(--color-grey));
+  padding: 3rem 1rem;
+  margin: 1rem;
+  border-radius: 15px;
+  gap: 2rem;
+}
+
+.edit-product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-block: 2rem;
+}
+
+.edit-product-card h3 {
+  font-weight: 700;
+}
+
+.edit-product-card > button {
+  align-self: end;
+}
+
+@media (min-width: 40rem) {
+  .edit-product-card {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  .edit-product-card > button {
+    align-self: center;
+  }
 }
 
 /* ************************************ */

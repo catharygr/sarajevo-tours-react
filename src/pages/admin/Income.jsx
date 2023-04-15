@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Income() {
-  return <h1>Income jyhgfjyg ytf ugyf itfy </h1>;
+  return (
+    <div className="income-container">
+      <img src="/assets/images/income.png" alt="Gráfico de ingresos" />
+    </div>
+  );
 }
