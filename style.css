@@ -1118,6 +1118,40 @@ h1 {
 }
 
 /* ************************************ */
+/* Cart Componentes                   */
+/* ************************************ */
+
+.cart-container {
+  background-color: hsl(var(--color-grey));
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.cart-list {
+  border-block: 1px solid hsl(var(--color-black));
+  margin-block: 1rem;
+}
+
+.cart-list-item {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 0.5rem;
+}
+
+.title-summary h3 {
+  font-weight: 500;
+}
+
+.title-summary p {
+  font-weight: 300;
+}
+
+.cart-price {
+  font-weight: 800;
+}
+
+/* ************************************ */
 /* Footer Componentes                   */
 /* ************************************ */
 
