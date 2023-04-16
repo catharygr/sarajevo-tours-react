@@ -16,6 +16,7 @@ import AuthRequired from "./pages/admin/AuthRequired";
 import Dashboard from "./pages/admin/Dashboard";
 import Products from "./pages/admin/Products";
 import Income from "./pages/admin/Income";
+import Cart from "./pages/Cart";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           </Route>
         </Route>
         <Route path="login" element={<Login />} />
+        <Route path="cart" element={<Cart />} />
 
         <Route path="sobre" element={<About />} />
       </Routes>

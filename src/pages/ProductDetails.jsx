@@ -50,6 +50,7 @@ export default function ProductDetails() {
         title={findProduct?.hero.heroTitle}
         price={findProduct?.price}
         text={findProduct?.hero.heroText}
+        id={findProduct?.id}
       />
 
       <article className="details-container color-white">
