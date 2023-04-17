@@ -16,7 +16,8 @@ import AuthRequired from "./pages/admin/AuthRequired";
 import Dashboard from "./pages/admin/Dashboard";
 import Products from "./pages/admin/Products";
 import Income from "./pages/admin/Income";
-import Cart from "./pages/Cart";
+import CartLayout from "./pages/cart/CartLayout";
+import Cart from "./pages/cart/Cart";
 
 function App() {
   return (
@@ -43,7 +44,9 @@ function App() {
           </Route>
         </Route>
         <Route path="login" element={<Login />} />
-        <Route path="cart" element={<Cart />} />
+        <Route path="cart" element={<CartLayout />}>
+          <Route index element={<Cart />} />
+        </Route>
 
         <Route path="sobre" element={<About />} />
       </Routes>
