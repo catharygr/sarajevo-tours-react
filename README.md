@@ -12,11 +12,11 @@ Usando rutas nidadas, rutas relativas, Outles, parámetros de búsquedas, useLoc
 
 ## React
 
-Componentes, props, formularios con estado, useEffect, useStates, redering condicional, createCon
+Componentes, props, formularios con estado, useEffect, useStates, createContext, useRef redering condicional, createCon
 
 ## Firebase
 
-Iniciación de la app, colección(getFirestore,collection, getDocs)
+Iniciación de la app, colección, getFirestore, getDocs. Autentificar, onAuthStateChanged, signInWithEmailAndPassword etc...
 
 ## Netlify
 

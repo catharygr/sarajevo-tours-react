@@ -181,6 +181,11 @@ body,
   color: hsl(var(--color-white));
 }
 
+button[disabled] {
+  box-shadow: inset 4px 4px 0px hsl(var(--color-shadow-blue), 0.5);
+  background-color: hsl(var(--color-grey));
+}
+
 .underline {
   border-bottom: 1px solid hsl(var(--color-black));
   align-self: center;
