@@ -17,7 +17,7 @@ export default function ProductLayout() {
             description:
               "Guía de esquí habilitado para GPS. Todos los alojamientos, las pistas. DOS montañas COMBO, Jahorina y Bjelašnica...",
             imgUrl: "/assets/images/ski-card.jpg",
-            productId: "1",
+            productoId: "YSYMGTyJXxK3xKcqFsR2",
           }}
         />
         <Footer />

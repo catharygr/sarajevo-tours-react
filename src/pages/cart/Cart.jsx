@@ -1,4 +1,4 @@
-import React, { useContext, useRef } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
 import Button from "../../componentes/Button";
 import { ShoppingContext } from "../../api/ShopCartContext";
 import { ProductContext } from "../../api/DataContext";
@@ -64,6 +64,14 @@ export default function Cart() {
     setPromoCod(inputPromoRef.current.value);
   }
 
+  // Manejar el estado de desabililitar el próximo botón y guardar shopCart en localStorage
+
+  const [isDisabled, setIsDisabled] = useState(true);
+  useEffect(() => {
+    setIsDisabled(shopCart.length === 0);
+    localStorage.setItem("SarajevoShopCart", JSON.stringify(shopCart));
+  }, [shopCart]);
+
   return (
     <div className="cart-container box-shadow-blue">
       <h2 className="ff-title fs-700 color-black">Tú compra</h2>
@@ -104,7 +112,11 @@ export default function Cart() {
           <p>{formatter.format(total)}</p>
         </li>
       </ol>
-      <Button color="green" title="Datos de pagos" />
+      <Button
+        isBtnDisabled={isDisabled}
+        color="green"
+        title={isDisabled ? "Carro vacio" : "Datos de pagos"}
+      />
     </div>
   );
 }
