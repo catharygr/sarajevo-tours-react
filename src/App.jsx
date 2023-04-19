@@ -18,6 +18,7 @@ import Products from "./pages/admin/Products";
 import Income from "./pages/admin/Income";
 import CartLayout from "./pages/cart/CartLayout";
 import Cart from "./pages/cart/Cart";
+import Payment from "./pages/cart/Payment";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="cart" element={<CartLayout />}>
           <Route index element={<Cart />} />
+          <Route path="pago" element={<Payment />} />
         </Route>
 
         <Route path="sobre" element={<About />} />

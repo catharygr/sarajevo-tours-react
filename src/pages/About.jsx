@@ -19,61 +19,83 @@ export default function About() {
 
         <article className="about-container color-white">
           <h1>Aprendiendo React y Firebase</h1>
-          <h3>React 18, React router 6, CSS, HTML, Netlify.</h3>
+          <h3>
+            React 18, React router 6, CSS, HTML, Netlify. Firabase Auth y
+            Firebase como backend.
+          </h3>
           <div className="about-card">
             <CardHomePage
               card={{
                 url: "#",
                 title: "Mi portafolio",
                 summary:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Meget mauris pharetra et ultrices neque ornare aenean euismod.Malesuada fames ac turpis egestas sed tempus urna et.",
+                  "Proyecto Sarajevo Tours página web de una imaginaria aplicación sobre una tienda online de venta de guias a turistas.",
                 imgUrl: "./assets/images/caty-emoji.jpg",
               }}
             />
           </div>
           <div className="parrafo flow">
+            <h2 className="ff-title fs-700">CSS</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi
-              eget mauris pharetra et ultrices neque ornare aenean euismod.
-              Malesuada fames ac turpis egestas sed tempus urna et. Habitasse
-              platea dictumst quisque sagittis purus sit. Et leo duis ut diam
-              quam nulla porttitor massa. Rhoncus dolor purus non enim praesent
-              elementum facilisis. Fringilla est ullamcorper eget nulla
-              facilisi. Tempus imperdiet nulla malesuada pellentesque elit eget
-              gravida cum sociis. Consectetur adipiscing elit duis tristique
-              sollicitudin nibh sit. Pulvinar etiam non quam lacus suspendisse
-              faucibus interdum posuere. Est sit amet facilisis magna etiam
-              tempor orci eu.
+              El uso de flexbox, grid, container-query, fuentes variables, css
+              variables, clip-path
             </p>
             <p>
-              Id faucibus nisl tincidunt eget nullam non nisi. Eget nulla
-              facilisi etiam dignissim diam quis. In mollis nunc sed id. Magnis
-              dis parturient montes nascetur. Nunc scelerisque viverra mauris in
-              aliquam sem. Vestibulum rhoncus est pellentesque elit ullamcorper
-              dignissim cras tincidunt. Luctus venenatis lectus magna fringilla
-              urna. Lectus urna duis convallis convallis tellus. Nulla facilisi
-              nullam vehicula ipsum a arcu cursus vitae. Pretium lectus quam id
-              leo. Malesuada nunc vel risus commodo. Eget magna fermentum
-              iaculis eu non diam. Mattis vulputate enim nulla aliquet porttitor
-              lacus luctus accumsan tortor. Vitae nunc sed velit dignissim
-              sodales ut eu. Libero nunc consequat interdum varius sit amet
-              mattis. Fringilla urna porttitor rhoncus dolor purus non enim
-              praesent. Posuere urna nec tincidunt praesent semper feugiat nibh
-              sed. Consequat semper viverra nam libero justo laoreet sit amet
-              cursus. Risus ultricies tristique nulla aliquet enim tortor at
-              auctor urna. Viverra ipsum nunc aliquet bibendum enim facilisis
-              gravida neque. Libero volutpat sed cras ornare.
+              A base del diseño que he recibido, he decidido usar las siguientes
+              herramientas para los componentes que contienen layout, he
+              ustilizado display grid y flex, para ajustar los container he
+              usado container que permite aplicar estilos a un elemento en
+              función del tamaño del contenedor del elemento. Las fuentes
+              variables la hemos usados para declaraciones de propiedades
+              personalizadas.
+            </p>
+            <h2 className="ff-title fs-700"> React router 6</h2>
+            <p>
+              Usando rutas nidadas, rutas relativas, Outles, Link, NavLink,
+              parámetros de búsquedas, useLocation, redering condicional,
+              useNavigate
             </p>
             <p>
-              {" "}
-              Pellentesque habitant morbi tristique senectus et netus. Velit
-              euismod in pellentesque massa placerat duis ultricies. Felis eget
-              velit aliquet sagittis id consectetur purus ut. Ornare suspendisse
-              sed nisi lacus sed. Vel risus commodo viverra maecenas accumsan.
-              Tellus elementum sagittis vitae et leo. Nisl vel pretium lectus
-              quam id leo. Risus nullam eget felis eget nunc lobortis.
+              Con el uso de las rutas nidadas y relativas nos permite crear una
+              navegación dinámica. Con el componente Outlet estableció un
+              espacio vacio dentro de los componentes donde renderizamos el
+              resultado de una ruta. Con el componente Link que acepta la
+              propiedad to para especificar a dónde queremos a que el enlace
+              navegue el usuario, usando el componente NavLink aplicamos algunos
+              estilos especiales. Con los parametros de busquedas como por
+              ejemplo useSearchParams para leer los parámetros de búqueda de
+              cadena de consulta que necesitamos en URL. El hook useLocation
+              localizamos datos de ubicación. Con el rederizado condicional
+              creamos elementos representado el estado actual. Con el uso de
+              useNavigate nos devolvió una función que nos permitió navegar
+              mediante la programación.
             </p>
+            <h2 className="ff-title fs-700"> React 18</h2>
+            <p>
+              Componentes, props, formularios con estado, useEffect, useStates,
+              createContext, useRef, createContext
+            </p>
+            <p>
+              Con el uso de los componentes separamos el interfaz de usuario,
+              reutilizándolos pasandoles props. El formulario como un componente
+              controlado. Usos de los hook mas usados en react para una mejor
+              renderización
+            </p>
+            <h2 className="ff-title fs-700">Firebase</h2>
+            <p>
+              Iniciación de la app, colección, getFirestore, getDocs.
+              Autentificar, onAuthStateChanged, signInWithEmailAndPassword
+              etc...
+            </p>
+            <h2 className="ff-title fs-700">Netlify</h2>
+            <p>
+              Envio de formulario, redirección por el pushstate en react, GitHub
+              desplegado
+            </p>
+            <h2 className="ff-title fs-700">Extras</h2>
+            <p>ReactMarkdaow, vite-plugin-svgr</p>
+            <h2 className="ff-title fs-700">Git</h2>
+            <p>Commint, branch, merge, restauración</p>
           </div>
           <img src="/assets/images/caty-about.jpg" alt="Mujer esquiando" />
         </article>

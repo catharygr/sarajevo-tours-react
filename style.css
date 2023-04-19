@@ -1232,7 +1232,7 @@ h1 {
   margin-block-start: 1rem;
 }
 
-.cart-container > button {
+.cart-container > .payment-btn {
   align-self: center;
   margin-block-start: 0.5rem;
 }
@@ -1244,7 +1244,7 @@ h1 {
     margin-inline: 6rem;
     padding: 2rem;
   }
-  .cart-container > button {
+  .cart-container > .payment-btn {
     align-self: end;
     margin-block-start: 2rem;
   }
