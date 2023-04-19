@@ -13,7 +13,7 @@ export default function Cart() {
     setShopCart(removeItem);
   }
 
-  // Para formatear numero  a euro
+  // Para formatear a euro
   const formatter = new Intl.NumberFormat("es-ES", {
     style: "currency",
     currency: "EUR",

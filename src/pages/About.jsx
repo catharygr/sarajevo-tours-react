@@ -21,7 +21,7 @@ export default function About() {
           <h1>Aprendiendo React y Firebase</h1>
           <h3>
             React 18, React router 6, CSS, HTML, Netlify. Firabase Auth y
-            Firebase como backend.
+            Firebase como Backend.
           </h3>
           <div className="about-card">
             <CardHomePage
@@ -57,10 +57,10 @@ export default function About() {
             </p>
             <p>
               Con el uso de las rutas nidadas y relativas nos permite crear una
-              navegación dinámica. Con el componente Outlet estableció un
+              navegación dinámica. Con el componente Outlet establecimos un
               espacio vacio dentro de los componentes donde renderizamos el
               resultado de una ruta. Con el componente Link que acepta la
-              propiedad to para especificar a dónde queremos a que el enlace
+              propiedad to para especificar a dónde queremos en que enlace
               navegue el usuario, usando el componente NavLink aplicamos algunos
               estilos especiales. Con los parametros de busquedas como por
               ejemplo useSearchParams para leer los parámetros de búqueda de
@@ -79,7 +79,7 @@ export default function About() {
               Con el uso de los componentes separamos el interfaz de usuario,
               reutilizándolos pasandoles props. El formulario como un componente
               controlado. Usos de los hook mas usados en react para una mejor
-              renderización
+              renderización de la web.
             </p>
             <h2 className="ff-title fs-700">Firebase</h2>
             <p>
@@ -95,7 +95,7 @@ export default function About() {
             <h2 className="ff-title fs-700">Extras</h2>
             <p>ReactMarkdaow, vite-plugin-svgr</p>
             <h2 className="ff-title fs-700">Git</h2>
-            <p>Commint, branch, merge, restauración</p>
+            <p>Commint, branch, merge, restauración y push</p>
           </div>
           <img src="/assets/images/caty-about.jpg" alt="Mujer esquiando" />
         </article>
