@@ -43,11 +43,10 @@ export default function About() {
             <p>
               A base del diseño que he recibido, he decidido usar las siguientes
               herramientas para los componentes que contienen layout, he
-              ustilizado display grid y flex, para ajustar los container he
-              usado container que permite aplicar estilos a un elemento en
-              función del tamaño del contenedor del elemento. Las fuentes
-              variables la hemos usados para declaraciones de propiedades
-              personalizadas.
+              utilizado display grid y flex, para ajustar los container he usado
+              container que permite aplicar estilos a un elemento en función del
+              tamaño del contenedor del elemento. Las fuentes variables la hemos
+              usados para declaraciones de propiedades personalizadas.
             </p>
             <h2 className="ff-title fs-700"> React router 6</h2>
             <p>

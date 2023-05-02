@@ -10,7 +10,7 @@ Código de estudio visual. Vite con los complementos eslint y prettier
 
 El uso de flexbox, grid, container-query, fuentes variables, css variables, clip-path
 
-A base del diseño que he recibido, he decidido usar las siguientes herramientas para los componentes que contienen layout, he ustilizado display grid y flex, para algunos componentes he usado container-query que permite aplicar estilos a un elemento en función del tamaño del contenedor del elemento. Las fuentes variables la hemos usados para declaraciones de propiedades personalizadas de titulos y párrafos.
+A base del diseño que he recibido, he decidido usar las siguientes herramientas para los componentes que contienen layout, he utilizado display grid y flex, para algunos componentes he usado container-query que permite aplicar estilos a un elemento en función del tamaño del contenedor del elemento. Las fuentes variables la hemos usados para declaraciones de propiedades personalizadas de titulos y párrafos.
 
 ## React router
 
