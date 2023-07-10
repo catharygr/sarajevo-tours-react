@@ -18,7 +18,7 @@ export default function AuthRequired() {
         navigate("/login");
       }
     });
-  });
+  }, []);
 
   if (!isLogged) {
     return <h1>Login...</h1>;
